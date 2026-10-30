@@ -47,11 +47,28 @@ def load_overrides(path: Path = OVERRIDES_PATH) -> dict[str, dict]:
 def collect_editions(
     slugs: list[str],
     history_provider: Callable[[str], list[Festival]] | None = None,
+    upcoming_provider: Callable[[str], Festival | None] | None = None,
 ) -> dict[str, list[Festival]]:
-    """Aktuelle Ausgaben (festivalplaner) plus optional Historie; festivalplaner gewinnt je (slug, year)."""
+    """Aktuelle Ausgaben (festivalplaner) plus optional Historie; festivalplaner gewinnt je (slug, year).
+
+    Zeigt festivalplaner für ein Festival keine kommende Ausgabe, wird `upcoming_provider` gefragt.
+    """
     result: dict[str, dict[int, Festival]] = {s: {} for s in slugs}
     for f in scraper.fetch_all(slugs):
         result.setdefault(f.slug, {})[f.year] = f
+    if upcoming_provider is not None:
+        today = date.today()
+        for slug in slugs:
+            if any(f.end_date >= today for f in result.get(slug, {}).values()):
+                continue
+            try:
+                f = upcoming_provider(slug)
+            except Exception:  # noqa: BLE001
+                log.exception("Kommende Ausgabe für %s fehlgeschlagen", slug)
+                continue
+            if f is not None:
+                log.info("%s %d: kommende Ausgabe aus %s", slug, f.year, f.source)
+                result.setdefault(slug, {})[f.year] = f
     if history_provider is not None:
         for slug in slugs:
             try:
@@ -250,17 +267,11 @@ def main(argv: list[str] | None = None) -> int:
     from festival_score.sources.lastfm import LastfmSource
     from festival_score.sources.spotify import SpotifySource
 
-    history_provider = None
-    if not args.no_history:
-        try:
-            from festival_score.history import fetch_history
+    from festival_score.history import fetch_history, fetch_upcoming
 
-            history_provider = fetch_history
-        except ImportError:
-            log.info("festival_score.history nicht vorhanden - laufe ohne Historie")
-
+    history_provider = None if args.no_history else fetch_history
     slugs = args.only or scraper.load_slugs()
-    editions = collect_editions(slugs, history_provider)
+    editions = collect_editions(slugs, history_provider, fetch_upcoming)
     all_festivals = [f for eds in editions.values() for f in eds]
     if not all_festivals:
         log.error("Keine Festivals geladen")

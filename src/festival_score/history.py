@@ -148,6 +148,29 @@ def _build_year(
     )
 
 
+def fetch_upcoming(slug: str, client: httpx.Client | None = None) -> Festival | None:
+    """Kommende Ausgabe von openairguide – Ersatz, wenn festivalplaner noch das Vorjahr zeigt."""
+    oag_slug = load_history_config().get(slug, {}).get("openairguide")
+    if not oag_slug:
+        return None
+    ed = oag.fetch_current(oag_slug, client)
+    if ed is None or ed.start_date is None or ed.start_date <= date.today():
+        return None
+    cfg = load_history_config()[slug]
+    return Festival(
+        slug=slug,
+        name=cfg.get("name", slug),
+        year=ed.year,
+        start_date=ed.start_date,
+        end_date=ed.end_date or ed.start_date,
+        url=ed.url,
+        location=cfg.get("location"),
+        acts=build_acts(ed.headliners, ed.bands),
+        reported_act_count=ed.reported_count,
+        source="openairguide",
+    )
+
+
 def main(argv: list[str] | None = None) -> None:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
     slugs = (argv if argv is not None else sys.argv[1:]) or load_slugs()

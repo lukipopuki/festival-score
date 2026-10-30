@@ -210,3 +210,18 @@ def test_enrich_nach_sperre_nur_noch_cache():
     assert sp.fetched == ["A"]  # nach der Sperre keine API-Anfragen mehr
     assert res["b"].monthly_listeners == 5
     assert res["c"].monthly_listeners is None
+
+
+def test_collect_editions_kommende_ausgabe_als_ersatz(monkeypatch):
+    alt = fest("deichbrand", year=2025, start=date(2025, 7, 17))
+    neu_fp = fest("hurricane", year=2099, start=date(2099, 6, 18))
+    monkeypatch.setattr(scraper, "fetch_all", lambda slugs: [alt, neu_fp])
+    gefragt = []
+
+    def upcoming(slug):
+        gefragt.append(slug)
+        return fest(slug, year=2099, start=date(2099, 7, 15), source="openairguide")
+
+    eds = pipeline.collect_editions(["deichbrand", "hurricane"], upcoming_provider=upcoming)
+    assert gefragt == ["deichbrand"]  # hurricane hat schon eine kommende Ausgabe
+    assert [f.year for f in eds["deichbrand"]] == [2025, 2099]
