@@ -113,7 +113,7 @@ def test_collect_editions_festivalplaner_gewinnt(monkeypatch):
     monkeypatch.setattr(scraper, "fetch_all", lambda slugs: [cur])
 
     def history(slug):
-        return [fest(year=2027, source="setlistfm"), fest(year=2025, source="setlistfm"),
+        return [fest(year=2027, source="openairguide"), fest(year=2025, source="setlistfm"),
                 fest(year=2024, source="wikipedia")]
 
     res = pipeline.collect_editions(["hurricane"], history)
@@ -128,7 +128,7 @@ def test_collect_editions_history_fehler(monkeypatch):
     def history(slug):
         if slug == "a":
             raise RuntimeError("x")
-        return [fest(slug=slug, year=2025, source="setlistfm")]
+        return [fest(slug=slug, year=2025, source="openairguide")]
 
     res = pipeline.collect_editions(["a", "b"], history)
     assert len(res["a"]) == 1 and len(res["b"]) == 2
