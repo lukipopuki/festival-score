@@ -240,7 +240,7 @@ def _fmt(v: float | None, width: int, spec: str) -> str:
 def format_table(output: dict) -> str:
     lines = [
         f"{'Festival':<22}{'Jahr':>5}{'Acts':>6}{'Vollst.':>8}{'total':>8}"
-        f"{'headl.':>8}{'/Tag':>8}{'/Euro':>8}{'ohne':>6}"
+        f"{'top30':>8}{'headl.':>8}{'/Tag':>8}{'/Euro':>8}{'ohne':>6}"
     ]
     for fest in output["festivals"]:
         for e in fest["editions"]:
@@ -249,7 +249,7 @@ def format_table(output: dict) -> str:
             lines.append(
                 f"{fest['name'][:21]:<22}{e['year']:>5}{e['act_count']:>6}"
                 f"{_fmt(e['completeness'], 8, '.2f')}{_fmt(s['total'], 8, '.1f')}"
-                f"{_fmt(s['headliner'], 8, '.2f')}{_fmt(s['per_day'], 8, '.1f')}"
+                f"{_fmt(s['top30'], 8, '.1f')}{_fmt(s['headliner'], 8, '.2f')}{_fmt(s['per_day'], 8, '.1f')}"
                 f"{_fmt(s['per_euro'], 8, '.3f')}{missing:>6}"
             )
     return "\n".join(lines)
