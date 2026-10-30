@@ -1,0 +1,4 @@
+{"artists": {"items": [
+ {"id": "DDDDDDDDDDDDDDDDDDDDDD", "name": "Completely Different", "type": "artist", "popularity": 50, "followers": {"href": null, "total": 1000}},
+ {"id": "EEEEEEEEEEEEEEEEEEEEEE", "name": "Other Band", "type": "artist", "popularity": 40, "followers": {"href": null, "total": 800}}
+]}}

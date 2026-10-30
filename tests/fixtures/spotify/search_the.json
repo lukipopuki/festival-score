@@ -1,0 +1,4 @@
+{"artists": {"items": [
+ {"id": "FFFFFFFFFFFFFFFFFFFFFF", "name": "The Killers", "type": "artist", "popularity": 80, "followers": {"href": null, "total": 22000000}},
+ {"id": "GGGGGGGGGGGGGGGGGGGGGG", "name": "Killer Mike", "type": "artist", "popularity": 60, "followers": {"href": null, "total": 2000000}}
+]}}

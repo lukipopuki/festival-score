@@ -1,0 +1,5 @@
+{"artists": {"items": [
+ {"id": "AAAAAAAAAAAAAAAAAAAAAA", "name": "Kontra K", "type": "artist", "popularity": 20, "followers": {"href": null, "total": 300}},
+ {"id": "BBBBBBBBBBBBBBBBBBBBBB", "name": "Kontra K", "type": "artist", "popularity": 71, "followers": {"href": null, "total": 1200000}},
+ {"id": "CCCCCCCCCCCCCCCCCCCCCC", "name": "Kontra K feat. Someone", "type": "artist", "popularity": 90, "followers": {"href": null, "total": 5000000}}
+]}}
