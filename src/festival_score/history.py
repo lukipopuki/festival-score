@@ -1,4 +1,4 @@
-"""Vorjahres-Lineups: Wikipedia (Eckdaten, Headliner) + setlist.fm (volles Lineup) -> `Festival`.
+"""Vorjahres-Lineups: openairguide.net (Lineup, Termin, Headliner) + Wikipedia (Preis, Besucher) -> `Festival`.
 
 CLI: `python -m festival_score.history [slug …]`
 """
@@ -16,7 +16,7 @@ import httpx
 import yaml
 
 from festival_score import USER_AGENT
-from festival_score import history_setlistfm as slfm
+from festival_score import history_openairguide as oag
 from festival_score import history_wikipedia as wiki
 from festival_score.cache import normalize_name
 from festival_score.models import Act, Festival
@@ -45,19 +45,15 @@ def _slugify(name: str) -> str:
 
 
 def build_acts(headliners: list[str], others: list[str]) -> list[Act]:
-    """Headliner zuerst (Reihenfolge der Quelle), dann der Rest alphabetisch; Duplikate per normalize_name."""
+    """Headliner zuerst, dann der Rest in gegebener Reihenfolge; Duplikate per normalize_name."""
     acts: list[Act] = []
     seen: set[str] = set()
-    for name in headliners:
-        key = normalize_name(name)
-        if key not in seen:
-            seen.add(key)
-            acts.append(Act(name, _slugify(name), len(acts), True))
-    for name in sorted(others, key=normalize_name):
-        key = normalize_name(name)
-        if key not in seen:
-            seen.add(key)
-            acts.append(Act(name, _slugify(name), len(acts), False))
+    for names, is_head in ((headliners, True), (others, False)):
+        for name in names:
+            key = normalize_name(name)
+            if key not in seen:
+                seen.add(key)
+                acts.append(Act(name, _slugify(name), len(acts), is_head))
     return acts
 
 
@@ -81,22 +77,16 @@ def fetch_history(
             except Exception:  # noqa: BLE001 - Quelle darf den Lauf nicht abbrechen
                 log.exception("%s: Wikipedia-Abruf fehlgeschlagen", slug)
 
-        api_key = slfm.get_api_key()
-        venue_ids: list[str] = []
-        term = cfg.get("setlistfm_venue")
-        if term and not api_key:
-            log.warning("%s: SETLISTFM_API_KEY fehlt – nur Wikipedia-Daten", slug)
-        elif term:
-            try:
-                venue_ids = slfm.find_venue_ids(str(term), client, api_key)
-                if not venue_ids:
-                    log.warning("%s: keine setlist.fm-Venue zu '%s' gefunden", slug, term)
-            except Exception:  # noqa: BLE001
-                log.exception("%s: setlist.fm-Venue-Suche fehlgeschlagen", slug)
-
+        oag_slug = cfg.get("openairguide")
         result = []
         for year in sorted(years):
-            fest = _build_year(slug, cfg, year, wiki_years.get(year), venue_ids, api_key, client)
+            ed: oag.OagEdition | None = None
+            if oag_slug:
+                try:
+                    ed = oag.fetch_edition(str(oag_slug), year, client)
+                except Exception:  # noqa: BLE001
+                    log.exception("%s %d: openairguide-Abruf fehlgeschlagen", slug, year)
+            fest = _build_year(slug, cfg, year, wiki_years.get(year), ed)
             if fest:
                 result.append(fest)
         return result
@@ -106,61 +96,54 @@ def fetch_history(
 
 
 def _build_year(
-    slug: str,
-    cfg: dict[str, Any],
-    year: int,
-    wy: wiki.WikiYear | None,
-    venue_ids: list[str],
-    api_key: str | None,
-    client: httpx.Client,
+    slug: str, cfg: dict[str, Any], year: int, wy: wiki.WikiYear | None, ed: oag.OagEdition | None
 ) -> Festival | None:
-    if wy and wy.cancelled and not wy.visitors:
+    if ed is None and wy and wy.cancelled and not wy.visitors:
         return None
-    perfs: list[slfm.Performance] = []
-    if venue_ids and api_key:
-        try:
-            perfs = slfm.fetch_performances(venue_ids, year, client, api_key)
-        except Exception:  # noqa: BLE001
-            log.exception("%s %d: setlist.fm-Abruf fehlgeschlagen", slug, year)
-
-    window = (wy.start_date, wy.end_date) if wy and wy.start_date and wy.end_date else None
-    window_from_slfm = False
-    if window is None and perfs:
-        window = slfm.infer_window(perfs)
-        window_from_slfm = window is not None
-    names = slfm.artists_in_window(perfs, *window) if window and perfs else []
-
-    if wy is None and not names:
+    if ed is None and wy is None:
         return None
-    if window is None:
+
+    if ed and ed.start_date and ed.end_date:
+        window = (ed.start_date, ed.end_date)
+    elif wy and wy.start_date and wy.end_date:
+        window = (wy.start_date, wy.end_date)
+    else:
         window = (date(year, *FALLBACK_MONTH_DAY), date(year, *FALLBACK_MONTH_DAY))
         log.warning("%s %d: Termin unbekannt, verwende %s", slug, year, window[0])
-    elif window_from_slfm:
-        log.info("%s %d: Termin aus setlist.fm abgeleitet: %s bis %s", slug, year, *window)
     if window[0] > date.today():
         return None  # noch nicht stattgefunden
 
-    headliners = wy.headliners if wy else []
-    wiki_lineup = wy.lineup if wy else []
-    # setlist.fm-Schreibweise hat Vorrang; ohne setlist.fm bleibt die Wikipedia-Liste (sonst nur Headliner)
-    acts = build_acts(headliners, names + wiki_lineup)
+    if ed:
+        headliners = ed.headliners or (wy.headliners if wy else [])
+        others = ed.bands  # Seitenreihenfolge
+    else:
+        headliners = wy.headliners if wy else []
+        others = sorted(wy.lineup if wy else [], key=normalize_name)
+    acts = build_acts(headliners, others)
     if not acts and not (wy and (wy.visitors or wy.price_eur or wy.reported_act_count)):
         log.info("%s %d: weder Acts noch Eckdaten, übersprungen", slug, year)
         return None
-    source = "setlistfm+wikipedia" if names and wy else "setlistfm" if names else "wikipedia"
+    reported = (wy.reported_act_count if wy else None) or (ed.reported_count if ed else None)
+    source = "openairguide+wikipedia" if ed and wy else "openairguide" if ed else "wikipedia"
+    if ed and ed.url:
+        url = ed.url
+    elif cfg.get("wikipedia"):
+        url = f"{wiki.ARTICLE_URL}{cfg['wikipedia']}"
+    else:
+        url = f"{FESTIVALPLANER_URL}{slug}"
     return Festival(
         slug=slug,
         name=cfg.get("name", slug),
         year=year,
         start_date=window[0],
         end_date=window[1],
-        url=f"{wiki.ARTICLE_URL}{cfg['wikipedia']}" if cfg.get("wikipedia") else f"{FESTIVALPLANER_URL}{slug}",
+        url=url,
         price_eur=wy.price_eur if wy else None,
         capacity=None,
         location=cfg.get("location"),
         acts=acts,
         visitors=wy.visitors if wy else None,
-        reported_act_count=wy.reported_act_count if wy else None,
+        reported_act_count=reported,
         source=source,
     )
 
