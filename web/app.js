@@ -364,12 +364,13 @@ function drawHistory() {
     const up = years.map((y) => f.editions.some((e) => e.year === y && e.status === 'upcoming'));
     const data = years.map((y) => {
       const e = f.editions.find((x) => x.year === y);
-      if (!e) return null;
+      // frühe Lineups würden die Linie gegen 0 ziehen und die Achse verzerren
+      if (!e || (e.status === 'upcoming' && isEarly(e))) return null;
       const v = m === 'acts' ? e.act_count : sc(e, m);
       return isNum(v) ? v : null;
     });
     return {
-      label: f.name, data, borderColor: color, backgroundColor: color, spanGaps: true,
+      label: f.name, data, borderColor: color, backgroundColor: color, spanGaps: false,
       hidden: state.hidden.has(f.slug), slug: f.slug, borderWidth: 2, tension: 0.15,
       pointRadius: 5, pointHoverRadius: 7,
       pointBackgroundColor: (ctx) => (up[ctx.dataIndex] ? surface : color),
