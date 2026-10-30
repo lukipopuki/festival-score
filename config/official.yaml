@@ -1,0 +1,29 @@
+# Offizielle Lineup-Seiten. parser = Modul in src/festival_score/official/
+festivals:
+  rock-am-ring:
+    parser: rockamring
+    url: https://www.rock-am-ring.com/line-up
+  rock-im-park:
+    parser: rockamring
+    url: https://www.rock-im-park.com/line-up
+  hurricane:
+    parser: fkp
+    url: https://hurricane.de/de/line-up/
+  southside:
+    parser: fkp
+    url: https://southside.de/de/line-up/
+  deichbrand:
+    parser: fkp
+    url: https://deichbrand.de/line-up/
+  highfield-festival:
+    parser: fkp
+    url: https://highfield.de/de/line-up/  # 2027 noch nicht online (404)
+  wacken-open-air:
+    parser: wacken
+    url: https://www.wacken.com/de/line-up/bands/
+  lollapalooza-berlin:
+    parser: lollapalooza
+    url: https://www.lollapaloozade.com/lineup
+  parookaville:
+    parser: parookaville
+    url: https://www.parookaville.com/de/line-up
