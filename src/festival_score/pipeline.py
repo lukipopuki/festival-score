@@ -115,13 +115,16 @@ def apply_official(
         if lineup.year is not None and lineup.year != f.year:
             log.info("%s: offizielles Lineup ist %s, nicht %d – ignoriert", slug, lineup.year, f.year)
             continue
-        official = {normalize_name(n) for n in lineup.acts}
+        # Offizielle Seiten schreiben oft VERSALIEN; vorhandene Schreibweise (z. B. "AnnenMayKantereit")
+        # aus der bisherigen Quelle hat Vorrang, wenn sie Kleinbuchstaben enthält
+        spelled = {normalize_name(a.name): a.name for a in f.acts if a.name != a.name.upper()}
+        names = [spelled.get(normalize_name(n), n) for n in lineup.acts]
+        official = {normalize_name(n) for n in names}
         headliners = lineup.headliners or [a.name for a in f.acts if a.headliner and normalize_name(a.name) in official]
-        # Schreibweise der offiziellen Seite für Headliner verwenden
-        by_key = {normalize_name(n): n for n in lineup.acts}
+        by_key = {normalize_name(n): n for n in names}
         headliners = [by_key.get(normalize_name(h), h) for h in headliners]
         before = len(f.acts)
-        f.acts = build_acts(headliners, lineup.acts)
+        f.acts = build_acts(headliners, names)
         f.source = f"offiziell+{f.source}"
         f.url = lineup.url or f.url
         log.info("%s %d: offizielles Lineup mit %d Acts (vorher %d)", slug, f.year, len(f.acts), before)

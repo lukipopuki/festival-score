@@ -244,7 +244,7 @@ def test_apply_official_ersetzt_acts_der_kommenden_ausgabe():
     eds = {"hurricane": [past, cur]}
     lineup = OfficialLineup(acts=["Placebo", "MUSE", "Kontra K"], year=2027, url="https://hurricane.de")
     pipeline.apply_official(eds, lambda slug: lineup, today=TODAY)
-    assert [a.name for a in cur.acts] == ["MUSE", "Placebo", "Kontra K"]  # Headliner zuerst, offizielle Schreibweise
+    assert [a.name for a in cur.acts] == ["Muse", "Placebo", "Kontra K"]  # Headliner zuerst, vorhandene Schreibweise vor VERSALIEN
     assert [a.headliner for a in cur.acts] == [True, False, False]
     assert cur.source == "offiziell+festivalplaner" and cur.url == "https://hurricane.de"
     assert [a.name for a in past.acts] == ["Alt"]  # vergangene Ausgaben bleiben
