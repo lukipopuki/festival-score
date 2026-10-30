@@ -1,0 +1,25 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Bands | Wacken Open Air</title><script>
+                    var t3vue = t3vue || {};
+                    const pString = '1';
+                    t3vue.performances = pString.split(',') || [];
+                    t3vue.festival = '11';
+                    t3vue.systemLanguage = 'de';
+                    t3vue.ajaxUrls = t3vue.ajaxUrls || {};
+                    t3vue.cdnEnabled = '';
+                    t3vue.cdnHost = '';
+
+                    if(pString === '1') {
+                    t3vue.ajaxUrls.list = 'https://www.wacken.com/fileadmin/Json/bandlist-concert.json';
+                    }
+                    if(pString === '3') {
+                    t3vue.ajaxUrls.list = 'https://www.wacken.com/fileadmin/Json/bandlist-spoken-word.json';
+                    }
+                    if(pString === '10') {
+                    t3vue.ajaxUrls.list = 'https://www.wacken.com/fileadmin/Json/bandlist-action.json';
+                    }
+                    if(pString === '2,11') {
+                    t3vue.ajaxUrls.list = 'https://www.wacken.com/fileadmin/Json/bandlist-party-walking-acts.json';
+                    }
+                </script></head><body><div class="tx-woamanager"><div id="t3vue-frontend-plugin"></div></div><ul class="footer-nav"><li><a href="/de/tickets-shop/ticket-uebersicht-2027/">
+                            Tickets &amp; Shop
+                        </a></li></ul></body></html>

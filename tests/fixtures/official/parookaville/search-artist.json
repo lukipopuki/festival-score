@@ -1,0 +1,457 @@
+{
+ "searchRequest": {
+  "region": "DE",
+  "language": "de",
+  "page": 1,
+  "limit": 120,
+  "term": null,
+  "preFilter": [
+   "festival-17"
+  ],
+  "filter": [],
+  "sorting": [],
+  "ppri": "600d808b-647a-4b09-99a9-6d4d0c224225"
+ },
+ "count": 4,
+ "items": [
+  {
+   "identifier": "1bed31db-c18d-5439-89d4-f12c7472f93d",
+   "type": "artist",
+   "label": "BUNT.",
+   "properties": {
+    "identifier": "artist-1047",
+    "name": "BUNT.",
+    "festival": 17,
+    "stage": [
+     1
+    ],
+    "day": [
+     60
+    ],
+    "stageAndDay": [
+     {
+      "stage": 1,
+      "day": 60
+     }
+    ],
+    "genre": [
+     3,
+     84,
+     85
+    ],
+    "sortingSection": 1,
+    "artist": {
+     "artist": {
+      "uid": 1047,
+      "name": "BUNT.",
+      "nameUppercase": true,
+      "detailPageUrl": "/de/artist/bunt",
+      "genres": [
+       {
+        "uid": 3,
+        "name": "Drum & Bass"
+       },
+       {
+        "uid": 84,
+        "name": "Stutter House"
+       },
+       {
+        "uid": 85,
+        "name": "Garage House"
+       }
+      ],
+      "image": {
+       "absoluteFilePath": null,
+       "absoluteWebPath": "/files/_processed_/0/2/csm_Bunt_6b3b1ac13e.webp",
+       "assetProperties": null,
+       "assetHashes": null,
+       "alternative": null,
+       "mediaIdentifier": null,
+       "mediaPreviewImage": null,
+       "customProperties": []
+      }
+     },
+     "subname": "in the round",
+     "subnameUppercase": true,
+     "festival": {
+      "uid": 17,
+      "name": "Parookaville 2027",
+      "stages": [],
+      "days": [],
+      "group": "parookaville"
+     },
+     "section": {
+      "uid": 73,
+      "name": "",
+      "sorting": 1
+     },
+     "stages": [
+      {
+       "uid": 1,
+       "name": "Mainstage",
+       "sorting": 1408
+      }
+     ],
+     "days": [
+      {
+       "uid": 60,
+       "name": "Samstag",
+       "day": {
+        "date": "2027-07-17 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+       }
+      }
+     ],
+     "shows": [
+      {
+       "day": {
+        "uid": 60,
+        "name": "Samstag",
+        "day": {
+         "date": "2027-07-17 00:00:00.000000",
+         "timezone_type": 3,
+         "timezone": "Europe/Berlin"
+        }
+       },
+       "stage": {
+        "uid": 1,
+        "name": "Mainstage",
+        "sorting": 1408
+       }
+      }
+     ],
+     "startTime": null,
+     "endTime": null
+    }
+   }
+  },
+  {
+   "identifier": "cf198699-d84c-55bd-8200-18a248ca9c2f",
+   "type": "artist",
+   "label": "Don Diablo",
+   "properties": {
+    "identifier": "artist-704",
+    "name": "Don Diablo",
+    "festival": 17,
+    "stage": [
+     1
+    ],
+    "day": [
+     60
+    ],
+    "stageAndDay": [
+     {
+      "stage": 1,
+      "day": 60
+     }
+    ],
+    "genre": [
+     3
+    ],
+    "sortingSection": 1,
+    "artist": {
+     "artist": {
+      "uid": 704,
+      "name": "Don Diablo",
+      "nameUppercase": true,
+      "detailPageUrl": "/de/artist/don-diablo",
+      "genres": [
+       {
+        "uid": 3,
+        "name": "Drum & Bass"
+       }
+      ],
+      "image": {
+       "absoluteFilePath": null,
+       "absoluteWebPath": "/files/_processed_/b/a/csm_Don-Diablo_a139e452a7.webp",
+       "assetProperties": null,
+       "assetHashes": null,
+       "alternative": null,
+       "mediaIdentifier": null,
+       "mediaPreviewImage": null,
+       "customProperties": []
+      }
+     },
+     "subname": "",
+     "subnameUppercase": true,
+     "festival": {
+      "uid": 17,
+      "name": "Parookaville 2027",
+      "stages": [],
+      "days": [],
+      "group": "parookaville"
+     },
+     "section": {
+      "uid": 73,
+      "name": "",
+      "sorting": 1
+     },
+     "stages": [
+      {
+       "uid": 1,
+       "name": "Mainstage",
+       "sorting": 1408
+      }
+     ],
+     "days": [
+      {
+       "uid": 60,
+       "name": "Samstag",
+       "day": {
+        "date": "2027-07-17 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+       }
+      }
+     ],
+     "shows": [
+      {
+       "day": {
+        "uid": 60,
+        "name": "Samstag",
+        "day": {
+         "date": "2027-07-17 00:00:00.000000",
+         "timezone_type": 3,
+         "timezone": "Europe/Berlin"
+        }
+       },
+       "stage": {
+        "uid": 1,
+        "name": "Mainstage",
+        "sorting": 1408
+       }
+      }
+     ],
+     "startTime": null,
+     "endTime": null
+    }
+   }
+  },
+  {
+   "identifier": "2aed766b-2e34-585e-bd97-a312bad75ce2",
+   "type": "artist",
+   "label": "Lost Frequencies",
+   "properties": {
+    "identifier": "artist-13",
+    "name": "Lost Frequencies",
+    "festival": 17,
+    "stage": [
+     1
+    ],
+    "day": [
+     59
+    ],
+    "stageAndDay": [
+     {
+      "stage": 1,
+      "day": 59
+     }
+    ],
+    "genre": [
+     8,
+     19,
+     38
+    ],
+    "sortingSection": 1,
+    "artist": {
+     "artist": {
+      "uid": 13,
+      "name": "Lost Frequencies",
+      "nameUppercase": true,
+      "detailPageUrl": "/de/artist/lost-frequencies",
+      "genres": [
+       {
+        "uid": 8,
+        "name": "Deep House"
+       },
+       {
+        "uid": 19,
+        "name": "House"
+       },
+       {
+        "uid": 38,
+        "name": "Dance-Pop"
+       }
+      ],
+      "image": {
+       "absoluteFilePath": null,
+       "absoluteWebPath": "/files/_processed_/1/4/csm_Lost-Frequencies_a4fe93c143.webp",
+       "assetProperties": null,
+       "assetHashes": null,
+       "alternative": null,
+       "mediaIdentifier": null,
+       "mediaPreviewImage": null,
+       "customProperties": []
+      }
+     },
+     "subname": "",
+     "subnameUppercase": true,
+     "festival": {
+      "uid": 17,
+      "name": "Parookaville 2027",
+      "stages": [],
+      "days": [],
+      "group": "parookaville"
+     },
+     "section": {
+      "uid": 73,
+      "name": "",
+      "sorting": 1
+     },
+     "stages": [
+      {
+       "uid": 1,
+       "name": "Mainstage",
+       "sorting": 1408
+      }
+     ],
+     "days": [
+      {
+       "uid": 59,
+       "name": "Freitag",
+       "day": {
+        "date": "2027-07-16 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+       }
+      }
+     ],
+     "shows": [
+      {
+       "day": {
+        "uid": 59,
+        "name": "Freitag",
+        "day": {
+         "date": "2027-07-16 00:00:00.000000",
+         "timezone_type": 3,
+         "timezone": "Europe/Berlin"
+        }
+       },
+       "stage": {
+        "uid": 1,
+        "name": "Mainstage",
+        "sorting": 1408
+       }
+      }
+     ],
+     "startTime": null,
+     "endTime": null
+    }
+   }
+  },
+  {
+   "identifier": "7c19bcbe-b3eb-50a9-8a4d-cfa3f2fd1066",
+   "type": "artist",
+   "label": "Steve Aoki",
+   "properties": {
+    "identifier": "artist-15",
+    "name": "Steve Aoki",
+    "festival": 17,
+    "stage": [
+     1
+    ],
+    "day": [
+     59
+    ],
+    "stageAndDay": [
+     {
+      "stage": 1,
+      "day": 59
+     }
+    ],
+    "genre": [
+     9,
+     35
+    ],
+    "sortingSection": 1,
+    "artist": {
+     "artist": {
+      "uid": 15,
+      "name": "Steve Aoki",
+      "nameUppercase": true,
+      "detailPageUrl": "/de/artist/steve-aoki",
+      "genres": [
+       {
+        "uid": 9,
+        "name": "EDM"
+       },
+       {
+        "uid": 35,
+        "name": "Big Room"
+       }
+      ],
+      "image": {
+       "absoluteFilePath": null,
+       "absoluteWebPath": "/files/_processed_/1/9/csm_Steve-Aoki_e06341afd6.webp",
+       "assetProperties": null,
+       "assetHashes": null,
+       "alternative": null,
+       "mediaIdentifier": null,
+       "mediaPreviewImage": null,
+       "customProperties": []
+      }
+     },
+     "subname": "",
+     "subnameUppercase": true,
+     "festival": {
+      "uid": 17,
+      "name": "Parookaville 2027",
+      "stages": [],
+      "days": [],
+      "group": "parookaville"
+     },
+     "section": {
+      "uid": 73,
+      "name": "",
+      "sorting": 1
+     },
+     "stages": [
+      {
+       "uid": 1,
+       "name": "Mainstage",
+       "sorting": 1408
+      }
+     ],
+     "days": [
+      {
+       "uid": 59,
+       "name": "Freitag",
+       "day": {
+        "date": "2027-07-16 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/Berlin"
+       }
+      }
+     ],
+     "shows": [
+      {
+       "day": {
+        "uid": 59,
+        "name": "Freitag",
+        "day": {
+         "date": "2027-07-16 00:00:00.000000",
+         "timezone_type": 3,
+         "timezone": "Europe/Berlin"
+        }
+       },
+       "stage": {
+        "uid": 1,
+        "name": "Mainstage",
+        "sorting": 1408
+       }
+      }
+     ],
+     "startTime": null,
+     "endTime": null
+    }
+   }
+  }
+ ],
+ "browserLink": "",
+ "links": {
+  "self": "/search/artist?region=DE&language=de&page=1&limit=120&preFilter%5B%5D=festival-17&ppri=600d808b-647a-4b09-99a9-6d4d0c224225",
+  "last": null,
+  "next": null
+ }
+}
