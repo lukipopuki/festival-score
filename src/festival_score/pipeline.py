@@ -87,6 +87,46 @@ def collect_editions(
     return {s: sorted(eds.values(), key=lambda f: f.year) for s, eds in result.items() if eds}
 
 
+def apply_official(
+    editions: dict[str, list[Festival]],
+    official_provider: Callable[[str], Any],
+    today: date | None = None,
+) -> None:
+    """Ersetzt die Acts kommender Ausgaben durch das offizielle Lineup (in place).
+
+    Preis, Termin usw. bleiben aus der bisherigen Quelle. Headliner: vom offiziellen Lineup,
+    sonst die bisherigen Headliner, soweit sie im offiziellen Lineup vorkommen.
+    """
+    from festival_score.history import build_acts
+
+    today = today or date.today()
+    for slug, eds in editions.items():
+        upcoming = [f for f in eds if f.end_date >= today]
+        if not upcoming:
+            continue
+        f = max(upcoming, key=lambda f: f.year)
+        try:
+            lineup = official_provider(slug)
+        except Exception:  # noqa: BLE001 - offizielle Seite darf den Lauf nicht abbrechen
+            log.exception("Offizielles Lineup für %s fehlgeschlagen", slug)
+            continue
+        if lineup is None or not lineup.acts:
+            continue
+        if lineup.year is not None and lineup.year != f.year:
+            log.info("%s: offizielles Lineup ist %s, nicht %d – ignoriert", slug, lineup.year, f.year)
+            continue
+        official = {normalize_name(n) for n in lineup.acts}
+        headliners = lineup.headliners or [a.name for a in f.acts if a.headliner and normalize_name(a.name) in official]
+        # Schreibweise der offiziellen Seite für Headliner verwenden
+        by_key = {normalize_name(n): n for n in lineup.acts}
+        headliners = [by_key.get(normalize_name(h), h) for h in headliners]
+        before = len(f.acts)
+        f.acts = build_acts(headliners, lineup.acts)
+        f.source = f"offiziell+{f.source}"
+        f.url = lineup.url or f.url
+        log.info("%s %d: offizielles Lineup mit %d Acts (vorher %d)", slug, f.year, len(f.acts), before)
+
+
 def _unique_acts(festivals: list[Festival]) -> dict[str, str]:
     """normalisierter Name -> erster Original-Name."""
     names: dict[str, str] = {}
@@ -263,6 +303,7 @@ def format_table(output: dict) -> str:
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description="Festival-Lineups bewerten und festivals.json erzeugen.")
     ap.add_argument("--no-history", action="store_true", help="keine historischen Ausgaben laden")
+    ap.add_argument("--no-official", action="store_true", help="Lineups nicht von offiziellen Seiten ersetzen")
     ap.add_argument("--only", nargs="+", metavar="SLUG", help="nur diese Festivals")
     args = ap.parse_args(argv)
 
@@ -277,6 +318,10 @@ def main(argv: list[str] | None = None) -> int:
     history_provider = None if args.no_history else fetch_history
     slugs = args.only or scraper.load_slugs()
     editions = collect_editions(slugs, history_provider, fetch_upcoming)
+    if not args.no_official:
+        from festival_score.official import fetch_official
+
+        apply_official(editions, fetch_official)
     all_festivals = [f for eds in editions.values() for f in eds]
     if not all_festivals:
         log.error("Keine Festivals geladen")

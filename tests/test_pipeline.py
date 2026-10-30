@@ -234,3 +234,31 @@ def test_strength_vs_previous_nur_fuer_kommende():
     eds = pipeline.build_output({"hurricane": [past, cur]}, m, today=TODAY)["festivals"][0]["editions"]
     assert eds[0]["strength_vs_previous"] == 1.5  # 3 Punkte / 2 Punkte
     assert eds[1]["strength_vs_previous"] is None
+
+
+def test_apply_official_ersetzt_acts_der_kommenden_ausgabe():
+    from festival_score.official import OfficialLineup
+
+    past = fest(year=2026, names=["Alt"])
+    cur = fest(year=2027, names=["Muse", "Kontra K", "Felix Jaehn"])  # Muse ist Headliner (Position 0)
+    eds = {"hurricane": [past, cur]}
+    lineup = OfficialLineup(acts=["Placebo", "MUSE", "Kontra K"], year=2027, url="https://hurricane.de")
+    pipeline.apply_official(eds, lambda slug: lineup, today=TODAY)
+    assert [a.name for a in cur.acts] == ["MUSE", "Placebo", "Kontra K"]  # Headliner zuerst, offizielle Schreibweise
+    assert [a.headliner for a in cur.acts] == [True, False, False]
+    assert cur.source == "offiziell+festivalplaner" and cur.url == "https://hurricane.de"
+    assert [a.name for a in past.acts] == ["Alt"]  # vergangene Ausgaben bleiben
+
+
+def test_apply_official_ignoriert_falsches_jahr_und_fehler():
+    from festival_score.official import OfficialLineup
+
+    cur = fest(year=2027, names=["A"])
+    pipeline.apply_official({"x": [cur]}, lambda s: OfficialLineup(acts=["B"], year=2026), today=TODAY)
+    assert [a.name for a in cur.acts] == ["A"]
+
+    def boom(slug):
+        raise RuntimeError("Seite down")
+
+    pipeline.apply_official({"x": [cur]}, boom, today=TODAY)
+    assert [a.name for a in cur.acts] == ["A"]
