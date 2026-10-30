@@ -1,0 +1,104 @@
+=== 2020er Jahre ===
+{| class="wikitable"
+|-
+! style="background:#CD0000; color:white;"| Datum
+! style="background:#CD0000; color:white;" width="300" colspan="2"| Künstler<ref>[http://www.rock-im-park.com/history rock-im-park.de - History]</ref>
+! style="background:#CD0000; color:white;" width="100"| Veranstaltungsort
+! style="background:#CD0000; color:white;" width="100"| Besucher
+! style="background:#CD0000; color:white;" width="80"| Preise
+|-
+
+|- style="background:#F5F5F5"
+| align="center" rowspan="3"| abgesagt<br /><small>geplant für 5.–7. Juni 2020</small>
+| colspan="1"| Headliner
+| colspan="1"| [[System of a Down]], [[Green Day]], [[Volbeat]]
+| align="center" rowspan="2"| [[Reichsparteitagsgelände#Zeppelinfeld und Zeppelinhaupttribüne|Zeppelinfeld]]
+| align="center" rowspan="2"| —
+| align="center" rowspan="2"| 199 – 259 €
+|- style="background:#F5F5F5"
+| colspan="1"| Außerdem u.&nbsp;a.
+| colspan="1"| [[Airbourne]], [[Alan Walker (Musikproduzent)|Alan Walker]], [[Alter Bridge]], [[Amaranthe]], [[August Burns Red]], [[Babymetal]], [[Baroness]], [[Bilderbuch (Band)|Bilderbuch]], [[Billy Talent]], [[Black Veil Brides]], [[Bosse (Musiker)|Bosse]], [[Boston Manor (Band)|Boston Manor]], [[Broilers]], [[Bush (Band)|Bush]], [[Creeper (Band)|Creeper]], [[Deftones]], [[Devin Townsend]], [[Disturbed]], [[Ego Kill Talent]], [[Eskimo Callboy]], [[Gang of Youths]], [[Gojira (Band)|Gojira]], [[Heaven Shall Burn]], [[Korn (Band)|Korn]], [[Motionless in White]], [[Neffex]], [[NF (Rapper)|NF]], [[Of Mice & Men (Band)|Of Mice & Men]], [[Powerwolf]], [[Rea Garvey]], [[Refused]], [[Royal Republic]], [[Schmutzki]], [[Seasick Steve]], [[Skillet]], [[SSIO]], [[Stone Broken]], [[Tempt]], [[The Menzingers]], [[The Offspring]], [[The Pretty Reckless]], [[Toxpack]], [[Trailerpark]], [[Trettmann]], [[Wage War]], [[Wanda (Band)|Wanda]], [[Weezer]], [[We Came as Romans]], [[Yungblud]]
+|-
+| colspan="5" style="background:#F6CECE" | Im Zuge der Maßnahmen zur Eindämmung der [[COVID-19-Pandemie|Corona-Krise]] wurden in Deutschland alle Großveranstaltungen bis zum 31. August 2020 untersagt.<br>Dies wurde auf einer Pressekonferenz mit der Bundeskanzlerin am 15. April 2020 verkündet.<ref>{{Internetquelle |autor= |url=https://www.youtube.com/watch?v=ZVxoDAfkDWU |titel=Pressekonferenz zu Corona-Maßnahmen |werk=Youtube |datum=2020-04-15 |abruf=2020-04-15 |sprache=de}}</ref>
+|- style="background:#DCDCDC"
+| align="center" rowspan="3"| abgesagt<br /><small>geplant für 11.–13. Juni 2021</small>
+| colspan="1"| Headliner
+| colspan="1"| [[System of a Down]], [[Green Day]], [[Volbeat]]
+| align="center" rowspan="2"| [[Reichsparteitagsgelände#Zeppelinfeld und Zeppelinhaupttribüne|Zeppelinfeld]]
+| align="center" rowspan="2"| –
+| align="center" rowspan="2"| Umtausch des Vorjahrestickets möglich;<br />259 €
+|- style="background:#DCDCDC"
+| colspan="1"| Außerdem u.&nbsp;a.
+| colspan="1"| [[A Day to Remember]], [[Airbourne]], [[Alan Walker (Musikproduzent)|Alan Walker]], [[Baroness]], [[Bilderbuch (Band)|Bilderbuch]], [[Billy Talent]], [[Black Veil Brides]], [[Boston Manor (Band)|Boston Manor]], [[Boys Noize]], [[Broilers]], [[Bush (Band)|Bush]], [[Code Orange]], [[Creeper (Band)|Creeper]], [[Daughtry]], [[Deftones]], [[Devin Townsend]], [[Digitalism]], [[Donna Missal]], [[Fall Out Boy]], [[Fire from the Gods]], [[Gojira (Band)|Gojira]], [[Jan Delay & Disko No. 1]], [[Kafvka]], [[KC Rebell]], [[Kodaline]], [[Korn (Band)|Korn]], [[Mastodon (Band)|Mastodon]], [[NF (Rapper)|NF]], [[Of Mice & Men (Band)|Of Mice & Men]], [[Poppy (Sängerin)|Poppy]], [[Powerwolf]], [[Rea Garvey]], [[RIN (Rapper)|RIN]], [[Royal Republic]], [[Schmutzki]], [[Seasick Steve]], [[Spiritbox]], [[SSIO]], [[Summer Cem]], [[Tempt]], [[The Distillers]], [[The Offspring]], [[The Pretty Reckless]], [[Trettmann]], [[Wage War]], [[Weezer]], [[You Me at Six]], [[Yungblud]], [[Zugezogen Maskulin]]
+|-
+| colspan="5" style="text-align:center" style="background:#F6CECE" | Das Festival wurde 2021 „vor dem Hintergrund der weiterhin unsicheren Infektionslage“ erneut abgesagt.&emsp;Dies kommunizierte der Veranstalter am 10. März 2021.<ref name=":2021" />
+|- style="background:#F5F5F5"
+| align="center" rowspan="2"| 3. – 5. Juni 2022
+| colspan="1"| Headliner
+| colspan="1"| [[Green Day]], [[Volbeat]], [[Muse (Band)|Muse]]
+| align="center" rowspan="2"| [[Reichsparteitagsgelände#Zeppelinfeld und Zeppelinhaupttribüne|Zeppelinfeld]]
+| align="center" rowspan="2"| 75.000<ref>[https://www.sueddeutsche.de/bayern/nuernberg-rock-im-park-bilanz-2022-1.5598083 ''„Rock im Park“ geht friedlich zu Ende – die Bilanz des Festivals.''] In: ''sueddeutsche.de'', vom 6. Juni 2022, abgerufen am 7. Juni 2022.</ref>
+| align="center" rowspan="2"| Umtausch des Vorjahrestickets möglich;<br />259 – 279 €<ref>{{Internetquelle |url=https://www.rock-im-park.com/2022/news/erste-bands-bestaetigt-plus-vvk-startet |titel=Erste Bands bestätigt + VVK startet |werk=rock-im-park.com |datum=2021-05-05 |abruf=2021-05-05}}</ref>
+|- style="background:#F5F5F5"
+| colspan="1"| Außerdem u.&nbsp;a.
+| colspan="1"| [[100 Gecs]], [[102 Boyz]], [[A Day to Remember]], [[Airbourne]], [[Akuma Six]], [[Alligatoah]], [[Baroness]], [[Beatsteaks]], [[BHZ (Band)|BHZ]], [[Billy Talent]], [[Black Veil Brides]], [[Boston Manor (Band)|Boston Manor]], [[Boys Noize]], [[Broilers]], [[Bullet for My Valentine]], [[Bush (Band)|Bush]], [[Caliban (Band)|Caliban]], [[Casper (Rapper)|Casper]], [[Danko Jones]], [[Daughtry]], [[Deftones]], [[Die Kassierer]], [[Digitalism]], [[Don Broco]], [[Donots]], [[Drangsal (Musiker)|Drangsal]], [[Ego Kill Talent]], [[Fever 333]], [[Fire from the Gods]], [[Gang of Youths]], [[Grandson (Musiker)|Grandson]], [[Ice Nine Kills]], [[Jan Delay & Disko No. 1]], [[KAFVKA]], [[Kodaline]], [[Korn (Band)|Korn]], [[Måneskin]], [[Marteria]], [[Masked Wolf]], [[Mastodon (Band)|Mastodon]], [[Myles Kennedy]], [[Placebo (Band)|Placebo]], [[RedHook]], [[RIN (Rapper)|RIN]], [[Royal Republic]], [[Schimmerling]], [[Schmutzki]], [[Scooter (Band)|Scooter]], [[Serious Klein]], [[Shinedown]], [[Skynd]], [[Sondaschule]], [[Spiritbox]], [[Sportfreunde Stiller]], [[SSIO]], [[Stick to Your Guns]], [[Tempt]], [[The Faim]], [[The Linda Lindas]], [[The Murder Capital]], [[The Offspring]], [[Toxpack]], [[Tremonti (Band)|Tremonti]], [[Unprocessed]], [[Weezer]], [[You Me at Six]]
+
+|- style="background:#DCDCDC"
+| align="center" rowspan="2"| 2.–4. Juni 2023
+| colspan="1"| Headliner
+| colspan="1"| [[Kings of Leon]], [[Die Toten Hosen]], [[Foo Fighters]]
+| align="center" rowspan="2"| [[Reichsparteitagsgelände#Zeppelinfeld und Zeppelinhaupttribüne|Zeppelinfeld]]
+| align="center" rowspan="2"| 70.000<ref>[https://www.sueddeutsche.de/bayern/musik-nuernberg-rock-im-park-zu-ende-mit-traum-wetter-und-entspannten-fans-dpa.urn-newsml-dpa-com-20090101-230604-99-936211 ''Rock im Park zu Ende: Mit Traum-Wetter und entspannten Fans''] In: ''sueddeutsche.de'', vom 4. Juni 2023, abgerufen am 7. Juni 2023.</ref>
+| align="center" rowspan="2"| 268 – 298 €
+|- style="background:#DCDCDC"
+| colspan="1"| Außerdem u.&nbsp;a.
+| colspan="1"| [[Apache 207]], [[Arch Enemy]], [[Architects]], [[AViVA]], [[Badmómzjay]], [[Boy Bleach]], [[Boysetsfire]], [[Bring Me the Horizon]], [[Bury Tomorrow]], [[Carpenter Brut]], [[Cleopatrick]], [[The Chats]], [[Dead Sara]], [[The Distillers]], [[Employed to Serve]], [[Evanescence]], [[Fever 333]], [[Finch (Rapper)|Finch]], [[Giant Rooks]], [[Hollywood Undead]], [[Hot Water Music]], [[Jinjer]], [[Juju (Rapperin)|Juju]], [[K.I.Z]], [[Limp Bizkit]], [[Maggie Lindemann]], [[Machine Gun Kelly (Musiker)|Machine Gun Kelly]], [[Mantar]], [[Mehnersmoos]], [[The Menzingers]], [[Meshuggah]], [[Motionless in White]], [[NOFX]], [[Nothing but Thieves]], [[Nothing, nowhere.]], [[Nova Twins]], [[Papa Roach]], [[Provinz (Band)|Provinz]], [[The Raven Age]], [[Lauren Sanderson]], [[Charlotte Sands]], [[Silverstein]], [[Tenacious D]], [[Three Days Grace]], [[Touché Amoré]], [[Turnstile (Band)|Turnstile]], [[Ville Valo|VV]], [[The Warning]], [[Yungblud]]<br /><br />Die Band [[Pantera]] wurde aufgrund eines [[Phil Anselmo#Rassismusvorwürfe und Folgen|Skandals]] um den Sänger [[Phil Anselmo]] Anfang 2023 wieder aus dem Programm genommen.<ref>{{Internetquelle |url=https://www.spiegel.de/kultur/rock-am-ring-rock-im-park-metal-band-pantera-tritt-doch-nicht-auf-a-993dc267-34f6-43d6-ad28-854964b5def5 |titel=Hitlergruß und »White Power«-Ausruf – Metal-Band Pantera tritt doch nicht bei »Rock am Ring« und »Rock im Park« auf |werk=[[Der Spiegel (online)|spiegel.de]] |datum=2023-01-23 |abruf=2023-01-24}}</ref>
+
+|- style="background:#F5F5F5"
+| align="center" rowspan="2"| 7.–9. Juni 2024
+| colspan="1"| Headliner
+| colspan="1"| [[Green Day]], [[Måneskin]], [[Die Ärzte]]
+| align="center" rowspan="2"| [[Reichsparteitagsgelände#Zeppelinfeld und Zeppelinhaupttribüne|Zeppelinfeld]]
+| align="center" rowspan="2"| 80.000<ref>[https://www.infranken.de/lk/nuernberg/rock-im-park-2024-in-nuernberg-veranstalter-einsatzkraefte-und-besucher-mit-fazit-art-5880333 ''Ruhig, ruhiger, Rock im Park 2024 - (fast) "alles tippi-toppi"''] In: ''infranken.de'', vom 9. Juni 2024, abgerufen am 11. Juni 2024.</ref>
+| align="center" rowspan="2"| 249 – 321,50 €
+|- style="background:#F5F5F5"
+| colspan="1"| Außerdem u.&nbsp;a.
+| colspan="1"| [[Crosses (Band)|†††]], [[311 (Band)|311]], [[Against the Current]], [[Antilopen Gang]], [[Asinhell]], [[Atreyu]], [[Avenged Sevenfold]], [[Babymetal]], [[Beartooth]], [[Betontod]], [[Billy Talent]], [[Biohazard (Band)|Biohazard]], [[Blackout Problems]], [[Body Count (Band)|Body Count]] feat. [[Ice-T]], [[Broilers]], [[Cemetery Sun]], [[Corey Taylor]], [[Counterparts (Band)|Counterparts]], [[Dogstar (Band)|Dogstar]], [[Donots]], [[Dropkick Murphys]], [[Electric Callboy]], [[Enter Shikari]], [[Fear Factory]], [[Fit for a King]], [[Guano Apes]], [[H-Blockx]], [[Hanabie]], [[Hatebreed]], [[Heriot (Band)|Heriot]], [[James and the Cold Gun]], [[Jazmin Bean]], [[Kerry King]], [[Kraftklub]], [[Kreator]], [[Kvelertak]], [[Landmvrks]], [[Leoniden (Band)|Leoniden]], [[L.S. Dunes]], [[Machine Head]], [[Madsen (Band)|Madsen]], [[Malevolence]], [[Marteria|Marsimoto]], [[Neck Deep]], [[Of Mice & Men (Band)|Of Mice & Men]], [[Parkway Drive]], [[Pendulum]], [[Pennywise (Band)|Pennywise]], [[Pinkshift]], [[Polyphia]], [[Queens of the Stone Age]], [[Royal Blood]], [[Royal Republic]], [[Scene Queen]], [[Schimmerling]], [[Skindred]], [[Sondaschule]], [[Team Scheisse]], [[The Interrupters]], [[The Last Internationale]], [[The Scratch]], [[Thy Art Is Murder]], [[Trettmann]], [[Underoath]], [[Wanda (Band)|Wanda]], [[Wargasm (britische Band)|Wargasm]], [[While She Sleeps]]
+
+|- style="background:#DCDCDC"
+| rowspan="3" align="center" | 6.–8. Juni 2025
+| colspan="1"| Headliner
+| colspan="1"| [[Slipknot]], [[Bring Me the Horizon]], [[Korn (Band)|Korn]]
+| rowspan="3" align="center" | [[Reichsparteitagsgelände#Zeppelinfeld und Zeppelinhaupttribüne|Zeppelinfeld]]
+| rowspan="3" align="center" |88.500<ref>[https://www.rock-im-park.com/news/09-jun-25-glanzvolles-jubilaeum-rock-im-park-eroeffnet-festivalsommer-mit-88-500-fans ''Glanzvolles Jubiläum: Rock im Park eröffnet Festivalsommer mit 88.500 Fans''] In: ''rock-im-park.com'', vom 9. Juni 2025, abgerufen am 10. Juni 2025.</ref>
+| rowspan="3" align="center" | 249 – 318 €
+|- style="background:#DCDCDC"
+| align="center" |Co-Headliner
+|[[Falling in Reverse]], [[K.I.Z]], [[Kontra K]], [[Rise Against]], [[Sleep Token]], [[The Prodigy]]
+|- style="background:#DCDCDC"
+| colspan="1" | Außerdem u.&nbsp;a.
+| colspan="1" |[[A Day to Remember]], [[Adam Angst]], [[Amira Elfeky]], [[Aviva]], [[Beatsteaks]], [[Biffy Clyro]], [[Boston Manor (Band)|Boston Manor]], [[Brutalismus 3000]], [[Bullet for My Valentine]], [[Creeper (Band)|Creeper]], [[Dead Poet Society]], [[Deine Cousine]], [[Die Nerven]], [[Drangsal (Musiker)|Drangsal]], [[Electric Bassboy]], [[Feine Sahne Fischfilet]], [[Fit for an Autopsy]], [[Frank Turner]] & The Sleeping Souls, [[Heaven Shall Burn]], [[House of Protection]], [[Idles]], [[Imminence]], [[In Flames]], I See Stars, [[Jerry Cantrell]], [[Jinjer]], [[Kittie]], [[Knocked Loose]],  [[Lorna Shore]], [[Massendefekt (Band)|Massendefekt]], [[Me First and the Gimme Gimmes]], [[Mia Morgan]], [[Millencolin]], [[Myles Kennedy]], [[Nothing More]], [[Olli Schulz]] & Band, [[Polaris (australische Band)|Polaris]], [[Poppy (Sängerin)|Poppy]], [[Powerwolf]], [[SDP (Band)|SDP]], [[Seven Hours After Violet]], [[Skillet]], [[Roy Bianco & Die Abbrunzati Boys]] (Special Guest), [[Spiritbox]], [[Sportfreunde Stiller]] (Special Guest), [[The Ghost Inside]],  [[The Red Flags]], [[The Warning]], [[Thrown]], [[Tocotronic]], [[Touché Amoré]], [[Turbostaat]], [[Weezer]], [[Whitechapel (Band)|Whitechapel]], [[Zebrahead]], [[ZSK (Band)|ZSK]]
+|-
+| rowspan="3" align="center" |5.–7. Juni 2026
+| colspan="1" |Headliner
+| colspan="1" |[[Iron Maiden]], [[Linkin Park]], [[Volbeat]]
+| rowspan="3" align="center" |[[Reichsparteitagsgelände#Zeppelinfeld und Zeppelinhaupttribüne|Zeppelinfeld]]
+| rowspan="3" align="center" |80.000<ref>{{Internetquelle |url=https://www.rock-im-park.com/ |titel=Rock im Park {{!}} 5 - 7 Juni 2026 {{!}} Nürnberg |hrsg=ARGO Konzerte GmbH |datum=2026 |sprache=de |abruf=2026-06-07}}</ref>
+| rowspan="3" align="center" |258 – 358 €
+|-
+| align="center" |Co-Headliner
+|[[Bad Omens]], [[Electric Callboy]], [[Limp Bizkit]], [[Papa Roach]], [[Sabaton]], [[The Offspring]]
+|-
+| colspan="1" |Außerdem u.&nbsp;a.
+|[[Alter Bridge]], Ankor, [[Architects]], [[Babymetal]], [[Badflower]], Bad Nerves, Basement, [[Bilmuri]], [[Black Veil Brides]], [[Blood Incantation]], [[Bloodywood]], Boundaries, [[Breaking Benjamin]], [[Bury Tomorrow]], [[Bush (Band)|Bush]], [[The Butcher Sisters]], [[Catch Your Breath]], [[Don Broco]], [[Drain (Band)|Drain]], Dying Wish, [[Ego Kill Talent]],  [[Finch (Rapper)|Finch]], [[The Funeral Portrait]], The Garden, [[Gatecreeper]], [[Max Grimm]], [[H-Blockx]], [[High Vis]], [[The Hives]], [[Hollywood Undead]], [[Ice Nine Kills]], [[Danko Jones]], [[Kublai Khan TX]], [[Landmvrks]], [[Letlive.]], [[Loathe]], [[Magnolia Park]], [[Malevolence]], [[Marteria]], [[Mastodon (Band)|Mastodon]], [[Mehnersmoos]], [[Tom Morello]], Mouth Culture, [[The Offspring]], Palaye Royale, Paleface Swiss, [[A Perfect Circle]], [[The Plot in You]], [[President (Band)|President]], [[The Pretty Reckless]], [[Return to Dust (Band)|Return to Dust]], [[Set It Off (Band)|Set It Off]], Slay Squad, [[Social Distortion]], [[Sondaschule]], [[The Story So Far]], [[The Subways]], [[Tesseract (Band)|Tesseract]], [[Thornhill (Band)|Thornhill]], [[Three Days Grace]], [[Trivium (Band)|Trivium]], [[TX2]], [[Ecca Vandal]], [[Wargasm (britische Band)|Wargasm]], [[We Came as Romans]], [[Within Temptation]]
+|- style="background:#DCDCDC"
+| rowspan="2" align="center" |4.–6. Juni 2027
+| colspan="1" |Headliner
+|[[Blink-182]]
+| rowspan="2" align="center" |[[Reichsparteitagsgelände#Zeppelinfeld und Zeppelinhaupttribüne|Zeppelinfeld]]
+| rowspan="2" align="center" |
+| rowspan="2" align="center" |258 – 341 €
+|- style="background:#DCDCDC"
+| colspan="1" |Außerdem u.&nbsp;a.
+|
+|}

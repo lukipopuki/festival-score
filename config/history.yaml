@@ -1,0 +1,54 @@
+# Quellen für Vorjahres-Lineups (siehe src/festival_score/history.py).
+# wikipedia:       Titel des Artikels auf de.wikipedia.org (null = kein passender Artikel)
+# setlistfm_venue: Suchbegriff für /search/venues ODER direkt eine venueId (hex, z. B. "3bd6c1d8").
+#                  Die Suchbegriffe sind ungeprüft, da im Entwicklungsumfeld kein API-Key vorlag;
+#                  bei Bedarf durch die venueId ersetzen.
+# wikipedia_skip_sections: Abschnittsüberschriften, die ignoriert werden (andere Events im Artikel)
+# name/location:   Anzeigename und Ort, weil Wikipedia/setlist.fm sie nicht einheitlich liefern.
+festivals:
+  rock-am-ring:
+    name: Rock am Ring
+    location: Nürburg
+    wikipedia: Rock_am_Ring
+    setlistfm_venue: Nürburgring
+  rock-im-park:
+    name: Rock im Park
+    location: Nürnberg
+    wikipedia: Rock_im_Park
+    setlistfm_venue: Zeppelinfeld
+  hurricane:
+    name: Hurricane
+    location: Scheeßel
+    wikipedia: Hurricane_Festival
+    setlistfm_venue: Eichenring
+  southside:
+    name: Southside
+    location: Neuhausen ob Eck
+    wikipedia: Southside_Festival
+    setlistfm_venue: Take-Off Gelände
+  wacken-open-air:
+    name: Wacken Open Air
+    location: Wacken
+    wikipedia: Wacken_Open_Air
+    wikipedia_skip_sections: [Wacken Winter Nights]   # eigene Veranstaltung mit eigener Tabelle
+    setlistfm_venue: Wacken Open Air
+  lollapalooza-berlin:
+    name: Lollapalooza Berlin
+    location: Berlin
+    wikipedia: null   # de.wikipedia hat keinen Artikel dazu
+    setlistfm_venue: Olympiastadion Berlin
+  parookaville:
+    name: Parookaville
+    location: Weeze
+    wikipedia: Parookaville
+    setlistfm_venue: Flughafen Weeze
+  deichbrand:
+    name: Deichbrand
+    location: Cuxhaven
+    wikipedia: Deichbrand_Festival
+    setlistfm_venue: Seeflughafen Cuxhaven
+  highfield-festival:
+    name: Highfield Festival
+    location: Großpösna
+    wikipedia: Highfield_Festival
+    setlistfm_venue: Störmthaler See

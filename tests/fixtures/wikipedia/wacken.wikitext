@@ -1,0 +1,48 @@
+== Entwicklung des W:O:A in Zahlen ==
+{| class="wikitable sortable" style="text-align:right"
+! Jahr !! Bands !! Teilnehmer !! zahlende<br />Besucher !! Preis<br />(EUR) !! Preis<br />(DM) !! Erhöhung in % !! Ausverkauft
+|-
+|2020{{FN|a}} || 0 || 0 || 0 || colspan="2" | 239 || 8,1 % || data-sort-value="0,875" | 21 Stunden
+|-
+|2021{{FN|a}} || 0 || 0 || 0 || colspan="2" | 239 || 0 % ||
+|-
+|2022 || 195 || 100.000<ref>{{Internetquelle |url=https://www.ndr.de/nachrichten/schleswig-holstein/wacken_open_air/WOA-Liveblog-Iron-Maiden-kommen-zum-Wacken-Open-Air-2023,liveblog140.html |titel=Rekord: 83.400 verkaufte Tickets |werk=ndr.de |datum=2022-08-07 |abruf=2022-08-07}}</ref> || 83.400 || colspan="2" | 239 || 0 % || kein offizieller Vorverkauf<ref name="VV 2022" />{{FN|b}}
+|-
+|2023{{FN|c}} || 218<ref>{{Internetquelle |hrsg=NDR |url=https://www.ndr.de/nachrichten/schleswig-holstein/wacken_open_air/Wacken-Open-Air-2023-Alle-Bands-und-wichtige-Festival-Infos,wacken5440.html |titel=Wacken Open Air 2023: Alle Bands und wichtige Festival-Infos |sprache=de |abruf=2023-08-09}}</ref>|| 61.000 || 61.000 || colspan="2" | 299 || 25,1 % || data-sort-value="0,208" |5 Stunden<ref name="woa-2023">{{Internetquelle |url=https://www.wacken.com/de/news-details/wir-sind-dankbar-das-wacken-open-air-2024-ist-in-neuer-rekordzeit-ausverkauft/ |titel=Wir sind dankbar! Das Wacken Open Air 2024 ist in neuer Rekordzeit ausverkauft! |datum=2023-08-07 |abruf=2024-08-05}}</ref><ref>Marvin Köhnken, Fabian Raddatz: [https://www.kreiszeitung.de/lokales/schleswig-holstein/wacken-wegen-dauerregen-veranstalter-stoppt-anreise-zum-92434567.html ''„Müssen Hälfte der Familie draußen lassen“: Wacken nach Anreise-Chaos mit Verspätung gestartet''], kreiszeitung.de, 2. August 2023, abgerufen am 2. August 2023.</ref><ref>[https://www.hna.de/welt/metal-fans-campingplaetze-wacken-2023-festival-anreise-chaos-wetter-schlamm-regen-92434932.html ''Wetter-Chaos beim Wacken 2023: Veranstalter zieht Reißleine! Auch Dorf gesperrt – Fans wütend''], hna.de, 2. August 2023, abgerufen am 2. August 2023.</ref>
+|-
+|2024 ||  202|| ||  85.000|| colspan="2" | 333{{FN|d}} ||11,4 % || 4,5 Stunden<ref>''[https://www.wacken.com/de/news-details/wir-sind-dankbar-das-wacken-open-air-2024-ist-in-neuer-rekordzeit-ausverkauft/ Wir sind dankbar! Das Wacken Open Air in neuer Rekordzeit ausverkauft!]'', offizielle Mitteilung der Veranstalter vom 7. August 2023; abgerufen am 7. August 2023.</ref>
+|-
+|2025 || || || 85.000<ref name=":1" />|| colspan="2" | 333{{FN|e}}|| 0 % || 57 Tage<ref name=":1">{{Internetquelle |url=https://www.wacken.com/de/news-details/danke-metalheads-das-woa-2025-ist-sold-out/ |titel=Danke Metalheads - Das W:O:A 2025 ist Sold Out! |datum=2024-09-30 |abruf=2024-09-30}}</ref>
+|-
+| 2026 ||  ||  ||  || colspan="2" | 351 || 5,4 % || 353 Tage<ref>{{Internetquelle |url=https://www.wacken.com/de/news-details/da-wacken-open-air-2026-ist-ausverkauft/ |titel=Das Wacken Open Air 2026 ist ausverkauft! |datum=2026-07-21|abruf=2026-07-21}}</ref>
+|}
+
+=== Wacken Winter Nights ===
+Die Wacken Winter Nights (WWN), ein dreitägiges Folk- und Mittelalter-Open-Air-Festival, fanden zum ersten Mal im Februar 2017 bei Temperaturen von −2 bis −6&#8239;°C in Wacken statt. Die Erstauflage des Festivals war bereits einige Wochen im Voraus mit über 3500 Besuchern ausverkauft, die zum großen Teil vor Ort auf dem Campinggelände übernachteten. Eine Zweitauflage des Festivals fand vom 23. bis zum 25. Februar 2018 statt. Aufgrund der Bebauung des vorjährigen Campgrounds wurden die Übernachtungsmöglichkeiten auf Teile der Flächen verlegt, die auch beim regulären Open Air genutzt werden.<ref name="WWN2-Plan">{{Internetquelle |url=https://www.wacken-winter-nights.com/neuigkeiten-mehr/news/news-detail/wwn-2018-festival-abc-und-plaene-verfuegbar/ |titel=WWN 2018 Festival ABC und Pläne verfügbar! |werk=WWN |datum=2018-02-02 |abruf=2019-02-25}}</ref> Der Fußweg verlängerte sich auf etwa 15 Minuten. Mit 4000 Besuchern war auch die Veranstaltung 2018 ausverkauft.<ref name="WWN2">{{Internetquelle |url=https://www.wacken-winter-nights.com/neuigkeiten-mehr/news/news-detail/ein-maerchen-aus-eis-und-feuer-die-wacken-winter-nights-2018-gehen-zu-ende/ |titel=Ein Märchen aus Eis und Feuer – Die Wacken Winter Nights 2018 gehen zu Ende! |werk=WWN |datum=2018-02-25 |abruf=2019-02-25}}</ref> Bei der dritten Veranstaltung 2019 wurde das Festivalgelände deutlich vergrößert und es nahmen 5000 Besucher teil. Für den 14. bis 16. Februar 2020 waren die vierten WWN geplant, die letztlich jedoch ausfallen mussten.<ref name="WWN3">{{Internetquelle |url=https://www.wacken-winter-nights.com/neuigkeiten-mehr/news/news-detail/die-wacken-winter-nights-2019-gehen-zu-ende/ |titel=Die Wacken Winter Nights 2019 gehen zu Ende! |werk=WWN |datum=2019-02-24 |abruf=2019-02-25}}</ref> Unter dem Titel ''Wacken Winter Nights Spectaculum'' versucht der Landgasthof Wacken seit 2023, die Tradition der Winter Nights in kleinerem Rahmen wieder aufleben zu lassen.
+
+{| class="wikitable sortable" style="text-align:center"
+! Datum !! Bands !! zahlende<br />Besucher !! Preis !! aus-<br />verkauft || Quelle
+|-
+| 10.–12. Feb. 2017 || || 3500{{0|00}} || {{0}}69 € || Ja || <ref>[https://www.wacken.com/de/news-details/wacken-winter-nights-2017/ ''Wacken Winter Nights 2017''], wacken.com</ref>
+|-
+| 23.–25. Feb. 2018 || 35 || 4000<ref name="WWN2" /> || || Ja ||
+|-
+| 23.–25. Feb. 2019 || 34 || 5000<ref name="WWN3" /> || {{0}}89 € || ||
+|-
+| 14.–16. Feb. 2020 || colspan="4" | ausgefallen ([[Sturmtief Victoria]]) || <ref>[https://www.rockhard.de/news/wacken-winter-nights-2020-abgesagt Wacken Winter Nights 2020 abgesagt], rockhard.de</ref>
+|-
+| 18.–20. Feb. 2021 || colspan="4" | ausgefallen ([[COVID-19-Pandemie]]) || <ref>[https://stagr.de/db/festivals/wacken-winter-nights-2022/ Wacken Winter Nights 2022], stagr.de</ref>
+|-
+| 18.–22. Feb. 2022 || colspan="4" | ausgefallen (COVID-19-Pandemie) || <ref>[https://www.festival-alarm.com/Festivals-2022/Wacken-Winter-Nights-Freitag-18.-Februar-2022-Wacken Wacken Winter Nights, Freitag, 18. Februar 2022], festival-alarm.com</ref>
+|-
+| {{0}}3.–{{0}}4. März 2023 || 5 || ca. 400 || ??? || ??? || <ref>[https://time-for-metal.eu/event/wacken-winter-nights-spectaculum-2023/ Wacken Winter Nights Spectaculum 2023], time-for-metal.eu/</ref><ref>{{Internetquelle |url=https://www.landgasthof-wacken.de/wacken-winter-nights-spectaculum-2023-offizieller-aftermovie/ |titel=Wacken Winter Nights Spectaculum 2023 – Offizieller Aftermovie |hrsg=Landgasthof Wacken (LGH) |datum=2023-03-22 |sprache=de |abruf=2023-10-18}}</ref>
+|-
+| {{0}}1.–{{0}}2. März 2024 || 7 || ??? || {{0}}39,50 € || ??? || <ref>{{Internetquelle |url=https://www.landgasthof-wacken.de/lgh-wacken-praesentiert-wacken-winter-nights-spectaculum-2024/ |titel=LGH Wacken präsentiert: Wacken Winter Nights Spectaculum 2024 |hrsg=Landgasthof Wacken (LGH) |datum=2023-12-21 |sprache=de |abruf=2024-02-19}}</ref>
+|}
+
+=== StrongmanRun ===
+Der [[StrongmanRun|Fisherman’s Friend StrongmanRun]] fand im April 2016 erstmals auf dem Metal-Festivalgelände in Wacken statt. Mit dem Debüt in Wacken wurde die StrongmanRun-Saison offiziell eingeläutet. Etwa 3000 teilweise bunt-kostümierte Teilnehmer nahmen an dem Lauf über die 20&nbsp;km lange Strecke mit 40 Hindernissen teil. 2017 fand der StrongmanRun auf dem Festivalgelände statt.<ref>Pressemappe ICS Network, ''Fisherman’s Friend StrongmanRun Goes Heavy In Wacken'', Stand September 2016 (S 36)</ref>
+
+=== Wacken Rocks ===
+Unter dem Namen Wacken Rocks fanden in der Vergangenheit mehrere Open-Air-Festivals statt, die den Flair des Wacken Open Air in andere Gegenden transportieren sollten.<ref>[https://www.bild.de/regional/hannover/festival-wacken-rocks-seaside-beginnt-in-9517326.bild.html Bild.de]</ref>
+

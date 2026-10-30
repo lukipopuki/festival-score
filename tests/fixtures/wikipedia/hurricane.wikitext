@@ -1,0 +1,72 @@
+== Daten und Fakten ==
+{| class="wikitable sortable"
+|- class="hintergrundfarbe5"
+! Jahr
+! Datum
+! Besucher
+! Eintrittspreis
+! Bands
+! Headliner
+|-
+| 2020
+| 19. bis 21. Juni
+| abgesagt
+| ab 159 €
+|
+| geplant waren [[Seeed]], [[Martin Garrix]], [[The Killers]], [[Deichkind]], [[Twenty One Pilots]], [[Kings of Leon]], [[Rise Against]]
+|-
+| 2021
+| 18. bis 20. Juni
+| abgesagt
+| ab 199 €
+|
+| geplant waren [[Seeed]], [[Martin Garrix]], [[The Killers]], [[Deichkind]], [[Twenty One Pilots]], [[Kings of Leon]], [[Rise Against]]
+|-
+| 2022
+| 17. bis 19. Juni
+| 80.000
+| ab 199 €
+|
+| [[Seeed]], [[Martin Garrix]], [[The Killers]], [[Deichkind]], [[Twenty One Pilots]], [[Kings of Leon]], [[Rise Against]], [[K.I.Z]]
+|-
+| 2023
+| 16. bis 18. Juni
+| 78.000
+| ab 189 €
+| 87
+| [[Billy Talent]], [[Kraftklub]], [[Peter Fox]], [[Muse (Band)|Muse]], [[Casper (Rapper)|Casper]], [[Marteria]], [[Die Ärzte]], [[Placebo (Band)|Placebo]], [[Queens of the Stone Age]]
+|-
+| 2024
+| 21. bis 23. Juni
+| 75.000<ref name="rev24">{{Internetquelle |url=https://vollgas-richtung-rock.de/magazin/hurricane-southside-2024-140-000-fans-feierten-auf-den-schwesterfestivals/ |titel=Hurricane & Southside 2024: 140.000 Fans feierten auf den Schwesterfestivals |hrsg=Magazin Vollgas Richtung Rock |datum=2024-06-25 |abruf=2024-08-03}}</ref>
+| ab 199 €
+| 87
+| [[Ed Sheeran]], [[K.I.Z]], [[Avril Lavigne]], [[Bring Me the Horizon]], [[Deichkind]]<ref>[https://hurricane.de/de/line-up/ ''Line-Up 2024.''] Webseite des Festivals. Abgerufen am 3. August 2024.</ref>
+|-
+| 2025
+| 20. bis 22. Juni
+| 65.000<ref>{{Internetquelle |werk=NDR.de |url=https://www.ndr.de/nachrichten/niedersachsen/lueneburg_heide_unterelbe/von-hitze-bis-gewitter-bilanz-des-hurricane-festivals-in-scheessel,hurricane-102.html |titel=Hurricane Festival 2025: Erst über 30 Grad - dann folgt Gewitter |sprache=de |abruf=2025-06-24}}</ref>
+| 159 bis 199 €<ref>{{Internetquelle |autor=Marcel Prigge |url=https://www.kreiszeitung.de/lokales/niedersachsen/teurer-hurricane-vorverkauf-startet-so-viel-kostet-das-festival-jubilaeum-2026-tickets-bald-93799255.html |titel=„Jetzt schon legendär“: Zwei Stufen für Hurricane-Tickets nach zwei Stunden ausverkauft |hrsg=Kreiszeitung |datum=2025-06-25 |sprache=de |abruf=2026-10-29}}</ref>
+| 
+|[[Biffy Clyro]], [[Rise Against]],  [[AnnenMayKantereit]], [[Alligatoah]], [[Deftones]], [[Electric Callboy]], [[Sam Fender]], [[The Prodigy]], [[Apache 207]], [[Nina Chuba]], [[Jan Böhmermann]] [[Rundfunk-Tanzorchester Ehrenfeld|& das Rundfunk-Tanzorchester Ehrenfeld]], [[SDP (Band)|SDP]], [[Green Day]]
+|-
+| 2026
+| 19. bis 21. Juni
+| 78.000 
+| ab 159 €
+| 
+|[[Kraftklub]], Yungblud, [[The Offspring]], Roy Bianco & Die Abbrunzati Boys, [[Donots]], [[Bosse (Musiker)|Bosse]], [[Twenty One Pilots]], [[Florence + the Machine]], [[Papa Roach]], Finch, [[Nothing but Thieves]], [[Wolf Alice]], [[SSIO]], [[Billy Talent]], [[Halsey (Sängerin)|Halsey]], [[Provinz (Band)|Provinz]], Empire of the Sun, [[A Day to Remember]], [[Clueso]], [[BHZ (Band)|BHZ]]
+|}
+
+== Line-ups ==
+{{Klappleiste/Anfang
+| TITEL = 2024
+}}
+Aaron, [[Adam Angst]], [[Alice Merton]], [[Avril Lavigne]], [[Ayliva]], [[Becky Hill]], Bess Atwell, [[Bombay Bicycle Club]], [[Booka Shade]], [[Boston Manor (Band)|Boston Manor]], [[Bring Me the Horizon]], [[Bruckner (Duo)|Bruckner]], [[Brutalismus 3000]], [[Buntspecht (Band)|Buntspecht]], [[Bury Tomorrow]], [[Cari Cari]], [[Danko Jones]], [[Deichkind]], [[Deine Cousine]], [[Dilla (Sängerin)|Dilla]], [[Drei Meter Feldweg]], [[Ed Sheeran]], [[Editors]], [[Ennio (Musiker)|Ennio]], [[Enno Bunger]], [[Fast Boy]], [[Fatoni]], [[Feine Sahne Fischfilet]], [[Flore (Band)|Flore]], [[Fontaines D. C.]], [[Frank Carter & The Rattlesnakes]], [[Giant Rooks]], [[Glockenbach (Musikprojekt)|Glockenbach]], [[Grossstadtgeflüster]], [[High Vis]], [[Hurricane Swim Team]], [[I Dont Know How But They Found Me]], [[Idles]], [[Itchy (Band)|Itchy]], [[Jungle (Band)|Jungle]], [[K.I.Z]], [[Kabinett (Band)|Kabinett]], [[Karpe (Band)|Omaer Sheriff]], [[Kontra K]], [[Lari Luke]], [[Leoniden (Band)|Leoniden]], [[Makko]], [[Marsimoto]], [[Me First and the Gimme Gimmes]], Mille, Missio, [[Montreal (Band)|Montreal]], [[Moop Mama|Moop Mama x Älice]], [[Noga Erez]], [[Pashanim]], [[Paula Carolina]], [[Paula Hartmann]], Revol, [[Ritter Lean]], [[Roy Bianco & Die Abbrunzati Boys]], Ruby Waters, [[Sea Girls]], [[Sido]], [[Silverstein]], [[Simple Plan]], [[Ski Aggu]], [[Soho Bani]], [[Sprints]], [[Stella Bossi]], [[Stone (englische Band)|Stone]], [[Sum 41]], Taha, [[Team Scheisse]], [[Teuterekordz]], [[The Gaslight Anthem]], [[The Hives]], [[The Kooks]], [[The Last Dinner Party]], [[The Lathums]], [[The Mysterines]], [[The National (Band)|The National]], [[The Offspring]], [[The Reytons]], [[The Subways]], [[Tom Odell]], [[Turnstile (Band)|Turnstile]].
+{{Klappleiste/Ende}}
+{{Klappleiste/Anfang
+| TITEL = 2025
+}}[[01099]], [[070 Shake]], [[100 Kilo Herz]], [[102 Boyz]], Alenna Rose, [[Alligatoah]], [[Amyl and the Sniffers]], [[AnnenMayKantereit]], [[Antilopen Gang]], [[Apache 207]], [[Apashe]], Bad Nerves, Beauty & the Beats, [[Bennett (DJ)|Bennett]], [[Berq]], [[Bibiza]], [[Biffy Clyro]], Big Special, Bilk, [[Blackout Problems]], [[Blond (deutsche Band)|Blond]], [[Circa Waves]], [[Creeds]], [[Dayseeker]], [[Deftones]], [[Joe Keery|Djo]], [[Dotan (Sänger)|Dotan]], [[Electric Callboy]], [[Fatoni]] x [[Edgar Wasser]] x [[Juse Ju]], Freddie Dredd, Friedberg, [[Girl in Red]], [[Green Day]], Hansemädchen, Hi! Spencer, [[Hot Milk (Band)|Hot Milk]], [[Hot Water Music]], HurricaneSwimTeam, [[Ikkimel]], [[Irie Révoltés]], [[Jan Böhmermann]] & das [[Rundfunk-Tanzorchester Ehrenfeld]], [[Jeremias (Band)|Jeremias]], [[Jimmy Eat World]], [[Kadavar (deutsche Band)|Kadavar]], [[Kafvka]], Kalte Liebe x Caiva, [[Kate Nash]], [[Kneecap (Band)|Kneecap]], [[Lagwagon]], [[Landmvrks]], Love'n'Joy, [[Lucy Dacus]], [[Luisa Neubauer]], [[Marlo Grosshardt]], [[Mehnersmoos]], Mothica, [[Nina Chuba]], [[Nova Twins]], [[Parcels]], [[Paris Paloma]], [[Pretty Pink]], [[Querbeat]], [[Raum27]], [[Rise Against]], [[Royal Republic]], [[Sam Fender]], Sawyer Hill, Scheiba, [[SDP (Band)|SDP]], [[Slowdive]], [[Souly]], [[Steiner & Madlaina]], [[Swiss und die Andern]], [[The Analogues]], The Backseat Lovers, [[The Kiffness]], [[The Murder Capital]], [[The Prodigy]], [[The Wombats]], [[Thrice]], [[Tiefbasskommando]], [[Tom Odell]], [[Turbostaat]], [[Von Wegen Lisbeth]], [[Wet Leg]], [[Yellowcard]], [[Zartmann]], [[Zeal & Ardor]]{{Klappleiste/Ende}}
+{{Klappleiste/Anfang | TITEL = 2026 }}
+[[A Day to Remember]], [[Alexisonfire]], [[All Time Low]], Anda Morts, Basement, [[Betterov]], [[BHZ (Band)|BHZ]], [[Billy Talent]], Blackgold, [[Bosse (Musiker)|Bosse]], Boviy, [[Boys Noize]], Buzz Beat Boutique, [[Clueso]], David Puentez, Davina Michelle, Delilah Bon, Der Spiegel live, Deutschland3000 mit Eva Schulz, Destroy Boys, [[Disarstar]], [[Donots]], Drei Meter Feldweg, [[Drunken Masters]], Ecca Vandal, [[Edwin Rosen]], [[Empire of the Sun]], Esther Graf, Filow, Finch, [[Florence + the Machine]], Florence Road, Grandson, [[Halsey (Sängerin)|Halsey]], Hansemädchen, [[Herrenmagazin]], <nowiki>#HurricaneSwimTeam</nowiki>, [[Juli (Band)|Juli]], Just Mustard, [[Kaffkiez]], Kasi, Kayla Shyx, Kingfishr, [[Kraftklub]], Latin Greek, [[Leoniden (Band)|Leoniden]] (Überraschungsauftritt)<ref>[https://www.rollingstone.de/hurricane-2026-bilder-samstag-secret-act-leoniden-twenty-one-pilots-3158737/ Hurricane 2026: Die Bilder vom Samstag – inklusive Secret Act]. In: ''Rolling Stone''. Abgerufen am 29. Oktober 2026.</ref>, Leony, Levin Liam, Militarie Gun, [[Modeselektor]], [[Modestep]], [[Natasha Bedingfield]], [[Nothing but Thieves]], [[OG Keemo]], Orville Peck, PA69, [[Papa Roach]], Paula Carolina, Paula Engels, [[Pennywise (Band)|Pennywise]], Picture Parlour, President, [[Provinz (Band)|Provinz]], Raynor, Rikas, Ritter Lean, Røry, Rosmarin, Roy Bianco & Die Abbrunzati Boys, Roya, Royel Otis, Scene Queen, Siegfried & Joy, [[Skindred]], [[Sondaschule]], Sprints, [[SSIO]], Steve Clash, [[The Ataris]], The Beaches, The Butcher Sisters, [[The Offspring]], The Sophs, Tinlicker, Tors, [[Twenty One Pilots]], Unpeople, Vicky, Violent Vortex, [[Wolf Alice]], Yonaka, Yungblud, [[Zebrahead]].<ref>[https://hurricane.de/fileadmin/user_upload/Festivals/Hurricane/DOCs/Timetable/Hurricane_26_Timetable_A4.pdf Hurricane Festival: Timetable 2026] (PDF). Abgerufen am 29. Oktober 2026.</ref>
+{{Klappleiste/Ende}}

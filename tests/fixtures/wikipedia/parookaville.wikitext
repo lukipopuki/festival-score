@@ -1,0 +1,168 @@
+== Daten und Fakten ==
+=== Line-up ===
+
+{| class="wikitable zebra" style="text-align:left;"
+! width="10%" | Datum
+! Anzahl Bühnen
+! Anzahl DJs
+! Headliner
+|-
+| 17.–18. Juli 2015
+| style="text-align:center" |5
+| style="text-align:center" |80
+| [[Alesso]], [[Armin van Buuren]], [[Dimitri Vegas & Like Mike]], [[Steve Aoki]]
+|-
+| 15.–16. Juli 2016
+| style="text-align:center" |10
+| style="text-align:center" |150
+| [[Afrojack]], [[Axwell Λ Ingrosso]], [[Steve Aoki]], [[Tiësto]]
+|-
+| 21.–23. Juli 2017
+| style="text-align:center" |10
+| style="text-align:center" |200
+| [[Afrojack]], [[Armin van Buuren]], [[Axwell Λ Ingrosso]], [[David Guetta]], [[DJ Snake]], [[Marshmello]], [[Paul Kalkbrenner]], [[Robin Schulz]], [[Steve Aoki]], [[Sven Väth]], [[Tiësto]]
+|-
+| 20.–22. Juli 2018
+| style="text-align:center" |10
+| style="text-align:center" |250+
+| [[Armin van Buuren]], [[Axwell Λ Ingrosso]], [[David Guetta]], [[Hardwell]], [[Martin Garrix]], [[Robin Schulz]], [[Solomun]], [[Steve Aoki]], [[Sven Väth]], [[Zedd]]
+|-
+| 19.–21. Juli 2019
+| style="text-align:center" |10+
+| style="text-align:center" |300+
+| [[Above & Beyond]], [[Afrojack]], [[Alan Walker (Musikproduzent)|Alan Walker]], [[Alesso]], [[Armin van Buuren]], [[The Chainsmokers]], [[Dimitri Vegas & Like Mike]], [[DJ Snake]], [[Felix Jaehn]], [[KSHMR]](Live), [[Lost Frequencies]](Live), [[Martin Solveig]], Nervo, [[Oliver Heldens]], [[Paul van Dyk]], [[Richie Hawtin]], [[Robin Schulz]], [[Showtek]], [[Steve Aoki]], [[Sven Väth]], [[Timmy Trumpet]], [[W&W (DJ-Duo)|W&W]], [[Yellow Claw]]
+|-
+| 17.+18. Juli 2020
+| style="text-align:center" |1
+| style="text-align:center" |9
+| [[Alle Farben]], [[Brennan Heart]], [[David Puentez]], [[Fedde Le Grand|Fedde le Grand]], [[Felix Jaehn]], [[Larissa Rieß|Lari Luke]], [[Topic (Musiker)|Topic]], [[Tujamo]], [[W&W (DJ-Duo)|W&W]]
+|-
+| 2021
+| colspan="3" | abgesagt
+
+|-
+
+| 22.–24. Juli 2022
+| style="text-align:center" |12
+| style="text-align:center" |300+
+| Afrojack, Alan Walker, Amelie Lens, Armin van Buuren, Dimitri Vegas & Like Mike, Felix Jaehn, Fisher, KSHMR, Martin Solveig, Oliver Heldens, Robin Schulz, [[Scooter (Band)|Scooter]], Steve Aoki, [[Tiësto]], Timmy Trumpet, Vini Vici, W&W, Yellow Claw
+|-
+| 19.–21. Juli 2023
+| style="text-align:center" |12
+| style="text-align:center" |250+<ref>{{Webarchiv |url=https://www.parookaville.com/de/artists |wayback=20230808103212 |text=''Artists - Line-Up 2023''}}</ref>
+| [[The Chainsmokers]], Hardwell, Steve Aoki, Timmy Trumpet, [[Kygo]], Dimitri Vegas & Like Mike, Vini Vici, [[Alok]]
+|-
+| 19.–21. Juli 2024
+| style="text-align:center" |12
+| style="text-align:center" |300+<ref>{{Internetquelle |autor=David Hahn |url=https://www.swp.de/panorama/parookaville-2024-timetable-termin-tickets-preise-lineup-77391677.html |titel=Timetable, Line-up, Tickets, Preise, Headliner - Alle Infos zum Parookaville Festival 2024 |werk=swp.de |datum=2024-07-19 |sprache=de |abruf=2024-08-20}}</ref>
+| Above & Beyond, Armin van Buuren, Dimitri Vegas & Like Mike, [[Don Diablo]], Felix Jaehn, Hardwell, KSHMR, Oliver Heldens, Paul Kalkbrenner, Robin Schulz, Scooter, Steve Aoki, Timmy Trumpet, W&W
+|-
+| 18.–20. Juli 2025
+| style="text-align:center" |13
+| style="text-align:center" |300+
+| [[Afrojack]], [[Alok]], [[Armin van Buuren]], [[Artbat|ARTBAT]], [[Boris Brejcha]], [[Dimitri Vegas & Like Mike|Dimitri Vegas]] (Vinyl Only), [[Felix Jaehn]], [[Hardwell]], [[I Hate Models]], [[Indira Paganotto]], [[James Hype]], [[KSHMR]] (live), [[Meute (Band)|Meute]], [[Oliver Heldens]], [[Robin Schulz]], [[Sara Landry]], [[Steve Aoki]], [[Timmy Trumpet]], [[W&W (DJ-Duo)|W&W]]
+|-
+| 17.–19. Juli 2026
+|
+|
+
+|
+
+|-
+
+| 16.–18. Juli 2027
+|
+|
+|
+
+|}
+
+=== Besucherentwicklung ===
+{| class="wikitable zebra" style="text-align:center;"
+!Jahr
+! Gesamtbesucher
+! Ticketanzahl
+! tägliche Besucher
+! Campinggäste
+|-
+|2015
+|{{0}}40.000
+|25.000
+|20.000
+|12.000
+|-
+|2016
+|{{0}}80.000
+|50.000
+|40.000
+|25.000
+|-
+|2017
+|180.000
+|80.000
+|60.000
+|40.000
+|-
+|2018
+|180.000
+|80.000
+|60.000
+|50.000
+|-
+|2019
+|210.000
+|85.000
+|70.000
+|40.000
+|-
+|2020
+|{{0|000.}}200
+|{{0|00.00}}0
+|{{0|00.}}100
+|{{0|00.00}}0
+|-
+| 2021
+| colspan="4" | abgesagt
+
+|-
+|2022
+|225.000
+|
+|75.000
+|40.000
+|-
+|2023
+|225.000<ref name="Zahlen" />
+|
+|75.000
+|45.000
+|-
+|2024
+|225.000
+|
+|75.000
+|45.000
+|-
+|2025
+|
+|
+|
+
+|
+
+|-
+|2026
+
+| 225.000 erwartet
+|
+|
+
+|
+
+|}
+
+
+=== 2024 ===
+[[Datei:PV MAIN 24.jpg|mini|Mainstage 2024 mit dem Namen „Bill's Greenhouse“]]
+Im Zeitraum vom 19. bis 21. Juli 2024 fand das Parookaville Festival zum 8. Mal statt. In diesem Jahr gab es eine neue Campsite mit verschiedenen Camping-Kategorien. Darunter: Das Friendship Camp, wo man auf 80 Quadratmeter mit 8 Personen ein Camp bilden konnte, das Green-Camp, wo viel Wert auf Müllvermeidung und Nachtruhe gelegt wurde, oder das normale altbekannte Base-Camp. Eine weitere Besonderheit stellte der Early Check-in dar. 50 % der Campinggäste konnten mit einem Early Access Ticket bereits am Mittwoch anreisen, wodurch die Anreise entzerrt wurde und somit für eine ruhigere Anreise gesorgt wurde.<ref> https://www.parookaville.com/de/campsite </ref> Für alle Campinggäste fand am Mittwoch vor dem Penny-Supermarkt eine Warm-up-Party mit einer Silent-Disko statt.<ref> https://rp-online.de/nrw/staedte/kevelaer/parookaville-festival/parookaville-2024-mit-lautloser-kopfhoerer-party_aid-115472685 </ref> Die 75.000 täglichen Besucher konnten in diesem Jahr Headliner wie Above & Beyond, Armin van Buuren, Dimitri Vegas & Like Mike, Don Diablo, Felix Jaehn, Hardwell, KSHMR, Oliver Heldens, Paul Kalkbrenner, Robin Schulz, Scooter, Steve Aoki, Timmy Trumpet und W&W sehen.<ref>{{Internetquelle |autor=Christopher Kremer |url=https://www.waz.de/freizeit/article403859598/parookaville-hier-gibt-es-alle-wichtigen-informationen.html |titel=Parookaville 2025: Was Besucher zum Jubiläum wissen müssen |werk=WAZ |datum=2025-02-04 |sprache=de |abruf=2025-04-27}}</ref> Die Thematisierung der Hauptbühne in diesem Jahr war laut Parookaville so grün wie nie zuvor. Die Mainstage stellte ein riesiges Gewächshaus dar mit dem Namen „Bill's Greenhouse“. Eine Besonderheit war, dass das Festival erstmals Wasserfälle und Wasserfontänen in die Bühne integriert hat.<ref> https://rp-online.de/nrw/staedte/kevelaer/parookaville-festival/parookaville-2024-was-ueber-die-mainstage-verraten-wird_aid-116409215 </ref> Außerdem war es das letzte Jahr für die alte Bills Factory Bühne, die im nächsten Jahr durch eine neue Bühne ersetzt wird.<ref>{{Internetquelle |autor=Christopher Kremer |url=https://www.waz.de/freizeit/article406855580/selbstabholer-gesucht-parookaville-buehne-steht-zum-verkauf.html |titel=Selbstabholer gesucht! Parookaville-Bühne steht zum Verkauf |datum=2024-07-22 |sprache=de |abruf=2024-10-13}}</ref>
+
