@@ -1,0 +1,482 @@
+[
+ {
+  "artist": {
+   "country": [
+    {
+     "nameLocalized": "Schweden",
+     "shortNameDe": "Schweden",
+     "shortNameEn": "Sweden",
+     "uid": 186
+    }
+   ],
+   "pathSegment": "avatar",
+   "title": "Avatar",
+   "uid": 6
+  },
+  "detailLink": "/de/2026/line-up/bands/band/avatar/",
+  "externalMediaRatio": "16by9",
+  "externalMediaSource": "https://youtu.be/0pJDxS5mXOM?si=4hdRlo9BrzUps-gQ",
+  "extraDay": false,
+  "festival": {
+   "runningOrderActive": false,
+   "uid": 11
+  },
+  "firsttime": false,
+  "images": [
+   {
+    "originalResource": {
+     "alternative": "",
+     "description": "",
+     "name": "WOA27_Avatar.jpg",
+     "publicUrl": "/fileadmin/user_upload/bandimages/bands2027/WOA27_Avatar.jpg",
+     "title": "",
+     "type": 2,
+     "uid": 39203
+    }
+   }
+  ],
+  "performance": [
+   {
+    "title": "Concert",
+    "uid": 1
+   }
+  ],
+  "spotifyalbum": "",
+  "spotifyartist": "4jpaXieuls7LVzG1uma5Rs",
+  "subtitle": "",
+  "thumbnail": "/fileadmin/_processed_/a/f/csm_WOA27_Avatar_d7047c6cc7.jpg",
+  "uid": 1839
+ },
+ {
+  "artist": {
+   "country": [
+    {
+     "nameLocalized": "Finnland",
+     "shortNameDe": "Finnland",
+     "shortNameEn": "Finland",
+     "uid": 67
+    }
+   ],
+   "pathSegment": "beast-in-black",
+   "title": "Beast In Black",
+   "uid": 279
+  },
+  "detailLink": "/de/2026/line-up/bands/band/beast-in-black/",
+  "externalMediaRatio": "16by9",
+  "externalMediaSource": "https://youtu.be/Ui_eoW3BXGI?si=uvJdbrthAJqPhxru",
+  "extraDay": false,
+  "festival": {
+   "runningOrderActive": false,
+   "uid": 11
+  },
+  "firsttime": false,
+  "images": [
+   {
+    "originalResource": {
+     "alternative": "",
+     "description": "",
+     "name": "WOA27_Beast_in_Black.jpg",
+     "publicUrl": "/fileadmin/user_upload/bandimages/bands2027/WOA27_Beast_in_Black.jpg",
+     "title": "",
+     "type": 2,
+     "uid": 37383
+    }
+   }
+  ],
+  "performance": [
+   {
+    "title": "Concert",
+    "uid": 1
+   }
+  ],
+  "spotifyalbum": "",
+  "spotifyartist": "0rEuaTPLMhlViNCJrg3NEH",
+  "subtitle": "",
+  "thumbnail": "/fileadmin/_processed_/6/f/csm_WOA27_Beast_in_Black_e19a1eeb68.jpg",
+  "uid": 1840
+ },
+ {
+  "artist": {
+   "country": [
+    {
+     "nameLocalized": "Österreich",
+     "shortNameDe": "Österreich",
+     "shortNameEn": "Austria",
+     "uid": 13
+    }
+   ],
+   "pathSegment": "belphegor",
+   "title": "Belphegor",
+   "uid": 408
+  },
+  "detailLink": "/de/2026/line-up/bands/band/belphegor/",
+  "externalMediaRatio": "16by9",
+  "externalMediaSource": "https://youtu.be/R84svP3mTJo",
+  "extraDay": false,
+  "festival": {
+   "runningOrderActive": false,
+   "uid": 11
+  },
+  "firsttime": false,
+  "images": [
+   {
+    "originalResource": {
+     "alternative": "",
+     "description": "",
+     "name": "WOA27_Belphegor.jpg",
+     "publicUrl": "/fileadmin/user_upload/bandimages/bands2027/WOA27_Belphegor.jpg",
+     "title": "",
+     "type": 2,
+     "uid": 37374
+    }
+   }
+  ],
+  "performance": [
+   {
+    "title": "Concert",
+    "uid": 1
+   }
+  ],
+  "spotifyalbum": "",
+  "spotifyartist": "1uPIYn2IU0IuPWSZ58kzyM",
+  "subtitle": "",
+  "thumbnail": "/fileadmin/_processed_/5/f/csm_WOA27_Belphegor_6e32f47e85.jpg",
+  "uid": 1831
+ },
+ {
+  "artist": {
+   "country": [
+    {
+     "nameLocalized": "Norwegen",
+     "shortNameDe": "Norwegen",
+     "shortNameEn": "Norway",
+     "uid": 158
+    }
+   ],
+   "pathSegment": "between-two-worlds",
+   "title": "Between Two Worlds",
+   "uid": 1317
+  },
+  "detailLink": "/de/2026/line-up/bands/band/between-two-worlds/",
+  "externalMediaRatio": "16by9",
+  "externalMediaSource": "",
+  "extraDay": false,
+  "festival": {
+   "runningOrderActive": false,
+   "uid": 11
+  },
+  "firsttime": true,
+  "images": [
+   {
+    "originalResource": {
+     "alternative": "",
+     "description": "",
+     "name": "WOA27_Between_Two_Worlds.jpg",
+     "publicUrl": "/fileadmin/user_upload/bandimages/bands2027/WOA27_Between_Two_Worlds.jpg",
+     "title": "",
+     "type": 2,
+     "uid": 37384
+    }
+   }
+  ],
+  "performance": [
+   {
+    "title": "Concert",
+    "uid": 1
+   }
+  ],
+  "spotifyalbum": "",
+  "spotifyartist": "",
+  "subtitle": "",
+  "thumbnail": "/fileadmin/_processed_/8/5/csm_WOA27_Between_Two_Worlds_e682acf7d1.jpg",
+  "uid": 1841
+ },
+ {
+  "artist": {
+   "country": [
+    {
+     "nameLocalized": "Kanada",
+     "shortNameDe": "Kanada",
+     "shortNameEn": "Canada",
+     "uid": 36
+    }
+   ],
+   "pathSegment": "blue-medusa",
+   "title": "Blue Medusa",
+   "uid": 1318
+  },
+  "detailLink": "/de/2026/line-up/bands/band/blue-medusa/",
+  "externalMediaRatio": "16by9",
+  "externalMediaSource": "https://youtu.be/T21hSKREXGk?si=pUEfg5ei8axcIW5e",
+  "extraDay": false,
+  "festival": {
+   "runningOrderActive": false,
+   "uid": 11
+  },
+  "firsttime": true,
+  "images": [
+   {
+    "originalResource": {
+     "alternative": "",
+     "description": "",
+     "name": "WOA27_Blue_Medusa.jpg",
+     "publicUrl": "/fileadmin/user_upload/bandimages/bands2027/WOA27_Blue_Medusa.jpg",
+     "title": "",
+     "type": 2,
+     "uid": 37385
+    }
+   }
+  ],
+  "performance": [
+   {
+    "title": "Concert",
+    "uid": 1
+   }
+  ],
+  "spotifyalbum": "",
+  "spotifyartist": "4BMOQ1GSXhTvuv6a05wk7z",
+  "subtitle": "",
+  "thumbnail": "/fileadmin/_processed_/3/4/csm_WOA27_Blue_Medusa_7319b2669a.jpg",
+  "uid": 1842
+ },
+ {
+  "artist": {
+   "country": [
+    {
+     "nameLocalized": "Vereinigte Staaten von Amerika",
+     "shortNameDe": "Vereinigte Staaten von Amerika",
+     "shortNameEn": "United States",
+     "uid": 220
+    }
+   ],
+   "pathSegment": "carnifex",
+   "title": "Carnifex",
+   "uid": 1319
+  },
+  "detailLink": "/de/2026/line-up/bands/band/carnifex/",
+  "externalMediaRatio": "16by9",
+  "externalMediaSource": "https://youtu.be/uRYF8aZg6Oo?si=RROFAFiXSA29vY5K",
+  "extraDay": false,
+  "festival": {
+   "runningOrderActive": false,
+   "uid": 11
+  },
+  "firsttime": true,
+  "images": [
+   {
+    "originalResource": {
+     "alternative": "",
+     "description": "",
+     "name": "WOA27_Carnifex.jpg",
+     "publicUrl": "/fileadmin/user_upload/bandimages/bands2027/WOA27_Carnifex.jpg",
+     "title": "",
+     "type": 2,
+     "uid": 37386
+    }
+   }
+  ],
+  "performance": [
+   {
+    "title": "Concert",
+    "uid": 1
+   }
+  ],
+  "spotifyalbum": "",
+  "spotifyartist": "4nqY8hkQNkHaDq4fdVxdYr",
+  "subtitle": "",
+  "thumbnail": "/fileadmin/_processed_/d/e/csm_WOA27_Carnifex_db999fa926.jpg",
+  "uid": 1843
+ },
+ {
+  "artist": {
+   "country": [
+    {
+     "nameLocalized": "Vereinigte Staaten von Amerika",
+     "shortNameDe": "Vereinigte Staaten von Amerika",
+     "shortNameEn": "United States",
+     "uid": 220
+    }
+   ],
+   "pathSegment": "cavalera-conspiracy",
+   "title": "Cavalera Conspiracy",
+   "uid": 1344
+  },
+  "detailLink": "/de/2026/line-up/bands/band/cavalera-conspiracy/",
+  "externalMediaRatio": "16by9",
+  "externalMediaSource": "https://youtu.be/Tpgo2GdHCpQ?si=kQEaT0i4dFoodi3y",
+  "extraDay": false,
+  "festival": {
+   "runningOrderActive": false,
+   "uid": 11
+  },
+  "firsttime": false,
+  "images": [
+   {
+    "originalResource": {
+     "alternative": "",
+     "description": "",
+     "name": "WOA27_Cavaleria-Conspiracy.jpg",
+     "publicUrl": "/fileadmin/user_upload/bandimages/bands2027/WOA27_Cavaleria-Conspiracy.jpg",
+     "title": "",
+     "type": 2,
+     "uid": 37477
+    }
+   }
+  ],
+  "performance": [
+   {
+    "title": "Concert",
+    "uid": 1
+   }
+  ],
+  "spotifyalbum": "",
+  "spotifyartist": "7F1K4WlMshx23V2TTz4KwV",
+  "subtitle": "",
+  "thumbnail": "/fileadmin/_processed_/0/f/csm_WOA27_Cavaleria-Conspiracy_c0aeb9b30d.jpg",
+  "uid": 1880
+ },
+ {
+  "artist": {
+   "country": [
+    {
+     "nameLocalized": "Finnland",
+     "shortNameDe": "Finnland",
+     "shortNameEn": "Finland",
+     "uid": 67
+    }
+   ],
+   "pathSegment": "children-of-bodom",
+   "title": "Children Of Bodom",
+   "uid": 1320
+  },
+  "detailLink": "/de/2026/line-up/bands/band/children-of-bodom/",
+  "externalMediaRatio": "16by9",
+  "externalMediaSource": "https://youtu.be/3QSdruaUunc?si=aiIPV436O6GZtfLw",
+  "extraDay": false,
+  "festival": {
+   "runningOrderActive": false,
+   "uid": 11
+  },
+  "firsttime": false,
+  "images": [
+   {
+    "originalResource": {
+     "alternative": "",
+     "description": "",
+     "name": "WOA27_Children_of_Bottom.jpg",
+     "publicUrl": "/fileadmin/user_upload/bandimages/bands2027/WOA27_Children_of_Bottom.jpg",
+     "title": "",
+     "type": 2,
+     "uid": 37387
+    }
+   }
+  ],
+  "performance": [
+   {
+    "title": "Concert",
+    "uid": 1
+   }
+  ],
+  "spotifyalbum": "",
+  "spotifyartist": "1xUhNgw4eJDZfvumIpcz1B",
+  "subtitle": "",
+  "thumbnail": "/fileadmin/_processed_/a/8/csm_WOA27_Children_of_Bottom_0755a66d4e.jpg",
+  "uid": 1844
+ },
+ {
+  "artist": {
+   "country": [
+    {
+     "nameLocalized": "Vereinigte Staaten von Amerika",
+     "shortNameDe": "Vereinigte Staaten von Amerika",
+     "shortNameEn": "United States",
+     "uid": 220
+    }
+   ],
+   "pathSegment": "john-bush",
+   "title": "John Bush",
+   "uid": 1329
+  },
+  "detailLink": "/de/2026/line-up/bands/band/john-bush/",
+  "externalMediaRatio": "16by9",
+  "externalMediaSource": "",
+  "extraDay": false,
+  "festival": {
+   "runningOrderActive": false,
+   "uid": 11
+  },
+  "firsttime": true,
+  "images": [
+   {
+    "originalResource": {
+     "alternative": "",
+     "description": "",
+     "name": "WOA27_John_Bush.jpg",
+     "publicUrl": "/fileadmin/user_upload/bandimages/bands2027/WOA27_John_Bush.jpg",
+     "title": "",
+     "type": 2,
+     "uid": 37407
+    }
+   }
+  ],
+  "performance": [
+   {
+    "title": "Concert",
+    "uid": 1
+   }
+  ],
+  "spotifyalbum": "",
+  "spotifyartist": "",
+  "subtitle": "",
+  "thumbnail": "/fileadmin/_processed_/3/1/csm_WOA27_John_Bush_bb31c0fc1a.jpg",
+  "uid": 1862
+ },
+ {
+  "artist": {
+   "country": [
+    {
+     "nameLocalized": "Schweden",
+     "shortNameDe": "Schweden",
+     "shortNameEn": "Sweden",
+     "uid": 186
+    }
+   ],
+   "pathSegment": "avatar",
+   "title": "Avatar",
+   "uid": 6
+  },
+  "detailLink": "/de/2026/line-up/bands/band/avatar/",
+  "externalMediaRatio": "16by9",
+  "externalMediaSource": "https://youtu.be/0pJDxS5mXOM?si=4hdRlo9BrzUps-gQ",
+  "extraDay": false,
+  "festival": {
+   "runningOrderActive": false,
+   "uid": 11
+  },
+  "firsttime": false,
+  "images": [
+   {
+    "originalResource": {
+     "alternative": "",
+     "description": "",
+     "name": "WOA27_Avatar.jpg",
+     "publicUrl": "/fileadmin/user_upload/bandimages/bands2027/WOA27_Avatar.jpg",
+     "title": "",
+     "type": 2,
+     "uid": 39203
+    }
+   }
+  ],
+  "performance": [
+   {
+    "title": "Concert",
+    "uid": 1
+   }
+  ],
+  "spotifyalbum": "",
+  "spotifyartist": "4jpaXieuls7LVzG1uma5Rs",
+  "subtitle": "",
+  "thumbnail": "/fileadmin/_processed_/a/f/csm_WOA27_Avatar_d7047c6cc7.jpg",
+  "uid": 1839
+ }
+]
