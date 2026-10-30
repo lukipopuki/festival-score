@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Festival-Score</title>
+  <meta name="description" content="Vergleich der Lineups großer deutscher Festivals anhand von Streaming-Kennzahlen.">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Zum Inhalt springen</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="#/">Festival-Score</a>
+      <span class="tagline">Lineups deutscher Festivals im Vergleich</span>
+    </div>
+  </header>
+  <main id="main" class="wrap" tabindex="-1">
+    <p class="status" id="loading">Lade Daten …</p>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Quellen: Lineups von <a href="https://www.festivalplaner.de/">festivalplaner.de</a> und <a href="https://www.openairguide.net/">openairguide.net</a>; Eckdaten teils aus Wikipedia (<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a>); Hörerzahlen von Spotify und Last.fm.</p>
+      <p>Hobbyprojekt, keine Gewähr. Die Zahlen sind von heute, auch für vergangene Jahre.</p>
+      <p><a href="https://github.com/lukipopuki/festival-score">Quellcode auf GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>
