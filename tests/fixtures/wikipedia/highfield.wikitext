@@ -1,0 +1,36 @@
+{| class="wikitable"
+! style="background:#FE9A2E; color:white;" width="100"| Datum
+! style="background:#FE9A2E; color:white;" colspan="2"| Künstler
+! style="background:#FE9A2E; color:white;" width="70"| Ver&shy;an&shy;stal&shy;tungs&shy;ort
+! style="background:#FE9A2E; color:white;" width="100"| Besucher
+|- style="background:#DCDCDC"
+| align="center" rowspan="2"| 19.–21. August 2022
+| colspan="1"| Headliner
+| colspan="1"| [[Deichkind]], [[Broilers]], [[Kraftklub]]
+| align="center" rowspan="2"| [[Störmthaler See]]
+| align="center" rowspan="2"| 35.000
+(ausverkauft)
+|- style="background:#DCDCDC"
+| colspan="1"| Außerdem u.&nbsp;a.
+| colspan="1"| [[Casper (Rapper)|Casper]], [[Bring Me the Horizon]], [[Kontra K]], [[AnnenMayKantereit]], [[Clueso]], [[Sido]], [[Felix Kummer|Kummer]], [[Madsen (Band)|Madsen]], [[Bosse (Musiker)|Bosse]], [[Electric Callboy]], [[Giant Rooks]], [[Donots]], [[Leoniden (Band)|Leoniden]], [[Juju (Rapperin)|Juju]], [[Wanda (Band)|Wanda]], [[Callejon]], Ferdinand fka [[Left Boy]], [[Antilopen Gang]], [[Frittenbude (Band)|Frittenbude]], [[Montreal (Band)|Montreal]], [[Grossstadtgeflüster]], [[Nura (Rapperin)|Nura]], [[You Me at Six]], [[Betontod]], [[Joris]], [[Lagwagon]], [[Moop Mama]], [[Sondaschule]], [[Maeckes]] & die Katastrophen, [[Zebrahead]], [[The Hunna]], [[Provinz (Band)|Provinz]], [[Neonschwarz]], [[Akne Kid Joe]], [[100 Kilo Herz]], [[Schmyt]], [[Kafvka]], [[Cleopatrick]]
+|-
+| rowspan="2" |18.–20. August 2023
+|Headliner
+|[[K.I.Z]], [[Die Ärzte]], [[Marteria]]
+| rowspan="2" |[[Störmthaler See]]
+| rowspan="2" | ca. 35.000
+|-
+|Außerdem u.&nbsp;a.
+|[[RIN (Rapper)|RIN]], [[SDP (Band)|SDP]], [[Beatsteaks]], [[Drei Meter Feldweg]], [[Dropkick Murphys]], [[Giant Rooks]], [[Tyna]], [[Heaven Shall Burn]], [[Von Wegen Lisbeth]], [[Tokio Hotel]], [[BHZ (Band)|BHZ]], [[Jennifer Weist|Yaenniver]], [[Pennywise (Band)|Pennywise]], [[Paula Hartmann]], [[Blond (deutsche Band)|Blond]], [[Enter Shikari]], [[Grossstadtgeflüster|Großstadtgeflüster]], [[Querbeat]], [[Bilbao (Band)|Bilbao]], [[Kaffkiez]]
+|- style="background:#DCDCDC"
+| align="center" # rowspan="2"| 16.–18. August 2024
+| colspan="1"| Headliner
+| colspan="1"| [[Peter Fox]], [[Alligatoah]], [[Provinz]], [[Rise Against]], [[Cro (Rapper)|Cro]], [[Macklemore]], [[Marsimoto]]
+| align="center" rowspan="2"| [[Störmthaler See]]
+| align="center" rowspan="2"| ca. 30.000
+
+|- style="background:#DCDCDC"
+| colspan="1"| Außerdem u.&nbsp;a.
+| colspan="1"| [[Donots]], [[Trettmann]], [[Makko]], [[Betterov]], [[Montreal (Band)|Montreal]], [[Akne Kid Joe]], [[Schmutzki]], [[Antje Schomaker]], [[Tränen (Band)|Tränen]], [[Mele]], [[Bierbabes]], [[The Kooks]], [[Ski Aggu]], [[Feine Sahne Fischfilet]], [[Jeremias]], [[Antilopen Gang]], [[Ennio]], [[Panteón Rococó]], [[Heisskalt]], [[Fjørt]], [[Blackout Problems]], [[Domiziana]], [[Milliarden (Band)|Milliarden]], [[Deine Cousine]], [[Wa22ermann]], [[Engst]], [[Mando Diao]], [[Bosse (Musiker)|Bosse]], [[Flogging Molly]], [[Olli Schulz]], [[Bukahara]], [[Soho Bani]], [[Nico Santos]], [[Rogers (Band)|Rogers]], [[Less Than Jake]], [[Dilla (Sängerin)|Dilla]],  [[Shitney Beers]], [[ok.danke.tschüss]], Aaron
+'''''Anmerkung:''' Das Festival wurde am zweiten Tag wegen eines Brandes für etwa zwei Stunden unterbrochen,<ref name="Brand" /> deshalb entfiel der Auftritt der Band [[The Kooks]], welche aber zwei Songs während des Konzerts von [[Cro (Rapper)|Cro]] spielen durften.''
+|}
