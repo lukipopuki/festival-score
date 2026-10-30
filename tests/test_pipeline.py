@@ -189,4 +189,4 @@ def test_completeness_nutzt_act_count_der_letzten_vergangenen():
     out = pipeline.build_output({"hurricane": [past, cur]}, {}, today=TODAY)
     eds = out["festivals"][0]["editions"]
     assert eds[0]["completeness"] == 0.5
-    assert eds[1]["completeness"] == 1.0
+    assert eds[1]["completeness"] is None  # vergangene Ausgaben haben keine Vollständigkeit

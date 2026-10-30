@@ -20,7 +20,7 @@ Diese Datei ist der Vertrag zwischen Pipeline und Website. Änderungen nur mit A
           "price_eur": 199.0, "capacity": 78001, "visitors": null,
           "act_count": 44,                  // Acts mit Daten in dieser Datei
           "reported_act_count": null,       // offizielle Anzahl laut Quelle, falls bekannt
-          "completeness": 0.51,             // act_count / Act-Anzahl der letzten vergangenen Ausgabe; null wenn unbekannt; max 1.0
+          "completeness": 0.51,             // nur bei "upcoming": act_count / Act-Anzahl der letzten vergangenen Ausgabe; sonst oder wenn unbekannt null; max 1.0
           "scores": {
             "total": 61.3,                  // Summe der Punkte
             "headliner": 3.1,               // Mittelwert der top_n Acts nach Punkten

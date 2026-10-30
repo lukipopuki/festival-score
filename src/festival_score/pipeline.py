@@ -16,6 +16,7 @@ from dotenv import load_dotenv
 from festival_score import scoring, scraper
 from festival_score.cache import normalize_name
 from festival_score.models import Festival
+from festival_score.sources.spotify import SpotifyAuthError
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 OVERRIDES_PATH = PROJECT_ROOT / "config" / "artist_overrides.yaml"
@@ -101,6 +102,8 @@ def enrich(
                     if sm is not None:
                         m.spotify_id = sm.source_id
                         m.monthly_listeners = sm.values.get("monthly_listeners")
+            except SpotifyAuthError:
+                raise  # fehlende/ungültige Credentials betreffen jeden Act -> Lauf abbrechen
             except Exception as e:  # noqa: BLE001
                 log.warning("Spotify für %r fehlgeschlagen: %s", name, e)
             try:
@@ -143,9 +146,10 @@ def _edition_dict(
                 "points": round(p, 2) if p is not None else None,
             }
         )
+    past = f.end_date < today
     return {
         "year": f.year,
-        "status": "past" if f.end_date < today else "upcoming",
+        "status": "past" if past else "upcoming",
         "source": f.source,
         "start_date": f.start_date.isoformat(),
         "end_date": f.end_date.isoformat(),
@@ -155,7 +159,8 @@ def _edition_dict(
         "visitors": f.visitors,
         "act_count": len(f.acts),
         "reported_act_count": f.reported_act_count,
-        "completeness": scoring.completeness(len(f.acts), reference),
+        # Vollständigkeit ist nur für noch nicht stattgefundene Ausgaben aussagekräftig
+        "completeness": None if past else scoring.completeness(len(f.acts), reference),
         "scores": scoring.edition_scores(pts, f.days, f.price_eur, scoring.TOP_N),
         "acts": acts,
     }
