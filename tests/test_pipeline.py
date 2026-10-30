@@ -190,3 +190,23 @@ def test_completeness_nutzt_act_count_der_letzten_vergangenen():
     eds = out["festivals"][0]["editions"]
     assert eds[0]["completeness"] == 0.5
     assert eds[1]["completeness"] is None  # vergangene Ausgaben haben keine Vollständigkeit
+
+
+def test_enrich_nach_sperre_nur_noch_cache():
+    from festival_score.sources.spotify import SpotifyRateLimited
+
+    class BlockedSpotify(FakeSpotify):
+        class cache:
+            @staticmethod
+            def get(name):
+                return (True, ArtistMetrics(name, "spotify", {"monthly_listeners": 5}, source_id="c")) if name == "B" else (False, None)
+
+        def fetch(self, name):
+            self.fetched.append(name)
+            raise SpotifyRateLimited(80000)
+
+    sp = BlockedSpotify()
+    res = pipeline.enrich([fest(names=["A", "B", "C"])], sp, FakeLastfm(), {})
+    assert sp.fetched == ["A"]  # nach der Sperre keine API-Anfragen mehr
+    assert res["b"].monthly_listeners == 5
+    assert res["c"].monthly_listeners is None

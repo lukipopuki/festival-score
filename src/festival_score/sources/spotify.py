@@ -28,11 +28,20 @@ SEARCH_URL = "https://api.spotify.com/v1/search"
 ARTIST_PAGE_URL = "https://open.spotify.com/artist/{id}"
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
 MAX_ATTEMPTS = 3
+MAX_RETRY_WAIT = 60  # längeres Retry-After = Sperre, nicht kurz abwarten
 MIN_SIMILARITY = 0.9
 
 
 class SpotifyAuthError(RuntimeError):
     """Credentials fehlen oder wurden abgelehnt."""
+
+
+class SpotifyRateLimited(RuntimeError):
+    """Spotify sperrt die App für längere Zeit (Retry-After > MAX_RETRY_WAIT)."""
+
+    def __init__(self, retry_after: float):
+        super().__init__(f"Spotify-API gesperrt, Retry-After {retry_after:.0f} s (~{retry_after / 3600:.1f} h)")
+        self.retry_after = retry_after
 
 
 # --- reine Funktionen -------------------------------------------------------
@@ -153,7 +162,9 @@ class SpotifySource:
                 wait = float(resp.headers.get("Retry-After", "1"))
             except ValueError:
                 wait = 1.0
-            time.sleep(min(max(wait, 0), 60))
+            if wait > MAX_RETRY_WAIT:
+                raise SpotifyRateLimited(wait)
+            time.sleep(max(wait, 0))
         return resp  # pragma: no cover
 
     # Teil 1: API

@@ -216,3 +216,21 @@ def test_missing_credentials_message(tmp_path, monkeypatch):
     src, _ = make_source(tmp_path)
     with pytest.raises(SpotifyAuthError, match=r"\.env\.example"):
         src.fetch("Muse")
+
+
+def test_langes_retry_after_ist_sperre(tmp_path, monkeypatch):
+    sleeps: list[float] = []
+    monkeypatch.setattr(spotify.time, "sleep", sleeps.append)
+
+    def handler(req):
+        if req.url.host == "accounts.spotify.com":
+            return httpx.Response(200, json=load("token.json"))
+        return httpx.Response(429, headers={"Retry-After": "79528"})
+
+    src = SpotifySource(
+        client=httpx.Client(transport=httpx.MockTransport(handler)),
+        cache=MetricsCache("spotify", cache_dir=tmp_path),
+    )
+    with pytest.raises(spotify.SpotifyRateLimited):
+        src.search("Muse")
+    assert sleeps == []  # nicht stundenlang warten

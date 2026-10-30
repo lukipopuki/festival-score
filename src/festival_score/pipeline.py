@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 from festival_score import scoring, scraper
 from festival_score.cache import normalize_name
 from festival_score.models import Festival
-from festival_score.sources.spotify import SpotifyAuthError
+from festival_score.sources.spotify import SpotifyAuthError, SpotifyRateLimited
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 OVERRIDES_PATH = PROJECT_ROOT / "config" / "artist_overrides.yaml"
@@ -87,6 +87,7 @@ def enrich(
     names = _unique_acts(festivals)
     total = len(names)
     result: dict[str, ActMetrics] = {}
+    spotify_blocked = False  # nach einer Sperre nur noch Cache-Werte nutzen
     for i, (key, name) in enumerate(names.items(), 1):
         ov = overrides.get(key) or {}
         m = ActMetrics()
@@ -100,12 +101,18 @@ def enrich(
                     m.spotify_id = str(ov["spotify_id"])
                     m.monthly_listeners = spotify.fetch_monthly_listeners(m.spotify_id)
                 else:
-                    sm = spotify.fetch(query)
+                    if spotify_blocked:
+                        _, sm = spotify.cache.get(query)
+                    else:
+                        sm = spotify.fetch(query)
                     if sm is not None:
                         m.spotify_id = sm.source_id
                         m.monthly_listeners = sm.values.get("monthly_listeners")
             except SpotifyAuthError:
                 raise  # fehlende/ungültige Credentials betreffen jeden Act -> Lauf abbrechen
+            except SpotifyRateLimited as e:
+                spotify_blocked = True
+                log.warning("%s – restliche Acts nur aus dem Cache bzw. per Last.fm-Schätzung", e)
             except Exception as e:  # noqa: BLE001
                 log.warning("Spotify für %r fehlgeschlagen: %s", name, e)
             try:
