@@ -1,0 +1,5 @@
+{"artists": {"href": "https://api.spotify.com/v1/search?q=Muse&type=artist&limit=10", "limit": 10, "offset": 0, "total": 3, "items": [
+ {"id": "0MUSETRIBUTE000000000", "name": "Muse Tribute Band", "type": "artist", "popularity": 12, "followers": {"href": null, "total": 900}, "genres": []},
+ {"id": "12Chz98pHFMPJEknJQMWvI", "name": "Muse", "type": "artist", "popularity": 78, "followers": {"href": null, "total": 18500000}, "genres": ["modern rock"]},
+ {"id": "0MUSEOTHER00000000000", "name": "MUSE", "type": "artist", "popularity": 5, "followers": {"href": null, "total": 120}, "genres": []}
+]}}
