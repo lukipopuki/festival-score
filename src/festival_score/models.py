@@ -27,6 +27,9 @@ class Festival:
     capacity: int | None = None
     location: str | None = None
     acts: list[Act] = field(default_factory=list)
+    visitors: int | None = None  # tatsächliche Besucher (nur vergangene Ausgaben)
+    reported_act_count: int | None = None  # offizielle Anzahl Acts laut Quelle, falls bekannt
+    source: str = "festivalplaner"  # "festivalplaner", "setlistfm", "wikipedia", ...
 
     @property
     def days(self) -> int:
