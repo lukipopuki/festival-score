@@ -151,7 +151,7 @@ def test_build_output_struktur_und_schaetzung():
     out = pipeline.build_output({"hurricane": [past, upcoming]}, m, today=TODAY)
     json.dumps(out)  # serialisierbar
     assert set(out) == {"generated_at", "scoring", "festivals"}
-    assert out["scoring"] == {"points_zero_listeners": 10000, "top_n": 5}
+    assert out["scoring"] == {"points_zero_listeners": 10000, "top_n": 5, "top_depth": 30}
     f = out["festivals"][0]
     assert (f["slug"], f["name"], f["location"]) == ("hurricane", "Hurricane", "Ort")
     assert [e["year"] for e in f["editions"]] == [2027, 2025]
@@ -162,7 +162,7 @@ def test_build_output_struktur_und_schaetzung():
     assert set(e) == {"year", "status", "source", "start_date", "end_date", "days", "price_eur",
                       "capacity", "visitors", "act_count", "reported_act_count", "completeness",
                       "scores", "acts"}
-    assert set(e["scores"]) == {"total", "headliner", "depth", "per_day", "per_euro"}
+    assert set(e["scores"]) == {"total", "top30", "headliner", "depth", "per_day", "per_euro"}
     acts = {a["name"]: a for a in e["acts"]}
     assert set(acts["Act0"]) == {"name", "position", "headliner", "spotify_id", "monthly_listeners",
                                  "lastfm_listeners", "listeners_estimated", "points"}
