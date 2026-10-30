@@ -60,6 +60,8 @@ def collect_editions(
                 log.exception("Historie für %s fehlgeschlagen", slug)
                 continue
             for f in history:
+                if not f.acts:
+                    continue  # vergangene Ausgabe ohne Lineup würde mit Score 0 den Vergleich verzerren
                 existing = result.setdefault(slug, {}).get(f.year)
                 if existing is None or (
                     existing.source != "festivalplaner" and f.source == "festivalplaner"
