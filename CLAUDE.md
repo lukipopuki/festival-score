@@ -7,7 +7,7 @@ Ergebnis: statische Website auf GitHub Pages mit Rankings (gesamt, pro Tag, pro 
 
 ```
 festivalplaner.de ──> scraper ──> Festival/Act ─┐
-Spotify / Last.fm ──> sources ──> ArtistMetrics ─┼─> scoring ──> data/processed/*.json ──> web/
+Spotify / Last.fm ──> sources ──> ArtistMetrics ─┼─> scoring ──> web/data/festivals.json ──> web/ (statische Seite)
 ```
 
 - `src/festival_score/models.py` – gemeinsames Datenmodell (`Festival`, `Act`, `ArtistMetrics`). Nicht ohne Absprache ändern.

@@ -1,4 +1,4 @@
-# Ausgabeformat `data/processed/festivals.json`
+# Ausgabeformat `web/data/festivals.json`
 
 Diese Datei ist der Vertrag zwischen Pipeline und Website. Änderungen nur mit Absprache.
 

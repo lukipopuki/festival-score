@@ -20,7 +20,7 @@ from festival_score.sources.spotify import SpotifyAuthError, SpotifyRateLimited
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 OVERRIDES_PATH = PROJECT_ROOT / "config" / "artist_overrides.yaml"
-OUTPUT_PATH = PROJECT_ROOT / "data" / "processed" / "festivals.json"
+OUTPUT_PATH = PROJECT_ROOT / "web" / "data" / "festivals.json"  # direkt von der Website geladen
 PROGRESS_EVERY = 25
 SAVE_EVERY = 50
 
