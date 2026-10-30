@@ -60,3 +60,11 @@ def test_top30_begrenzt_auf_30_beste():
     assert s["top30"] == 60.0
     assert s["total"] == 80.5
     assert edition_scores([], 3, None)["top30"] == 0
+
+
+def test_strength_ratio():
+    from festival_score.scoring import strength_ratio
+
+    assert strength_ratio(82.1, 81.2) == 1.01
+    assert strength_ratio(50, None) is None
+    assert strength_ratio(50, 0) is None

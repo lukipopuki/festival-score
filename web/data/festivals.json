@@ -533,7 +533,8 @@
        "listeners_estimated": false,
        "points": 1.82
       }
-     ]
+     ],
+     "strength_vs_previous": 0.96
     },
     {
      "year": 2026,
@@ -1287,7 +1288,8 @@
        "listeners_estimated": false,
        "points": 1.24
       }
-     ]
+     ],
+     "strength_vs_previous": null
     },
     {
      "year": 2025,
@@ -2321,7 +2323,8 @@
        "listeners_estimated": false,
        "points": 2.04
       }
-     ]
+     ],
+     "strength_vs_previous": null
     },
     {
      "year": 2024,
@@ -3045,7 +3048,8 @@
        "listeners_estimated": false,
        "points": 2.11
       }
-     ]
+     ],
+     "strength_vs_previous": null
     }
    ]
   },
@@ -3576,7 +3580,8 @@
        "listeners_estimated": false,
        "points": 1.82
       }
-     ]
+     ],
+     "strength_vs_previous": 0.96
     },
     {
      "year": 2026,
@@ -4330,7 +4335,8 @@
        "listeners_estimated": false,
        "points": 1.58
       }
-     ]
+     ],
+     "strength_vs_previous": null
     },
     {
      "year": 2025,
@@ -5354,7 +5360,8 @@
        "listeners_estimated": false,
        "points": null
       }
-     ]
+     ],
+     "strength_vs_previous": null
     },
     {
      "year": 2024,
@@ -6078,7 +6085,8 @@
        "listeners_estimated": false,
        "points": 2.0
       }
-     ]
+     ],
+     "strength_vs_previous": null
     }
    ]
   },
@@ -6549,7 +6557,8 @@
        "listeners_estimated": false,
        "points": 2.97
       }
-     ]
+     ],
+     "strength_vs_previous": 1.01
     },
     {
      "year": 2026,
@@ -7403,7 +7412,8 @@
        "listeners_estimated": false,
        "points": 1.5
       }
-     ]
+     ],
+     "strength_vs_previous": null
     },
     {
      "year": 2025,
@@ -8297,7 +8307,8 @@
        "listeners_estimated": false,
        "points": 2.79
       }
-     ]
+     ],
+     "strength_vs_previous": null
     },
     {
      "year": 2024,
@@ -9131,7 +9142,8 @@
        "listeners_estimated": false,
        "points": 2.92
       }
-     ]
+     ],
+     "strength_vs_previous": null
     }
    ]
   },
@@ -9652,7 +9664,8 @@
        "listeners_estimated": false,
        "points": 2.97
       }
-     ]
+     ],
+     "strength_vs_previous": 1.03
     },
     {
      "year": 2026,
@@ -10466,7 +10479,8 @@
        "listeners_estimated": false,
        "points": 2.04
       }
-     ]
+     ],
+     "strength_vs_previous": null
     },
     {
      "year": 2025,
@@ -11360,7 +11374,8 @@
        "listeners_estimated": false,
        "points": 2.57
       }
-     ]
+     ],
+     "strength_vs_previous": null
     },
     {
      "year": 2024,
@@ -12234,7 +12249,8 @@
        "listeners_estimated": false,
        "points": 2.78
       }
-     ]
+     ],
+     "strength_vs_previous": null
     }
    ]
   },
@@ -12765,7 +12781,8 @@
        "listeners_estimated": false,
        "points": 0.31
       }
-     ]
+     ],
+     "strength_vs_previous": 0.74
     },
     {
      "year": 2026,
@@ -14279,7 +14296,8 @@
        "listeners_estimated": true,
        "points": 0.52
       }
-     ]
+     ],
+     "strength_vs_previous": null
     },
     {
      "year": 2025,
@@ -15793,7 +15811,8 @@
        "listeners_estimated": false,
        "points": 2.04
       }
-     ]
+     ],
+     "strength_vs_previous": null
     },
     {
      "year": 2024,
@@ -17617,7 +17636,8 @@
        "listeners_estimated": true,
        "points": 1.55
       }
-     ]
+     ],
+     "strength_vs_previous": null
     }
    ]
   },
@@ -17678,7 +17698,8 @@
        "listeners_estimated": false,
        "points": 3.74
       }
-     ]
+     ],
+     "strength_vs_previous": 0.16
     },
     {
      "year": 2026,
@@ -18092,7 +18113,8 @@
        "listeners_estimated": true,
        "points": 1.88
       }
-     ]
+     ],
+     "strength_vs_previous": null
     },
     {
      "year": 2025,
@@ -18586,7 +18608,8 @@
        "listeners_estimated": false,
        "points": 2.04
       }
-     ]
+     ],
+     "strength_vs_previous": null
     },
     {
      "year": 2024,
@@ -19160,7 +19183,8 @@
        "listeners_estimated": true,
        "points": 2.03
       }
-     ]
+     ],
+     "strength_vs_previous": null
     }
    ]
   },
@@ -19231,7 +19255,8 @@
        "listeners_estimated": false,
        "points": 3.24
       }
-     ]
+     ],
+     "strength_vs_previous": 0.24
     },
     {
      "year": 2025,
@@ -19445,7 +19470,8 @@
        "listeners_estimated": false,
        "points": 3.07
       }
-     ]
+     ],
+     "strength_vs_previous": null
     },
     {
      "year": 2024,
@@ -19609,7 +19635,8 @@
        "listeners_estimated": false,
        "points": 3.07
       }
-     ]
+     ],
+     "strength_vs_previous": null
     }
    ]
   },
@@ -19940,7 +19967,8 @@
        "listeners_estimated": true,
        "points": 1.13
       }
-     ]
+     ],
+     "strength_vs_previous": 0.76
     },
     {
      "year": 2026,
@@ -20974,7 +21002,8 @@
        "listeners_estimated": false,
        "points": 0.0
       }
-     ]
+     ],
+     "strength_vs_previous": null
     },
     {
      "year": 2025,
@@ -22178,7 +22207,8 @@
        "listeners_estimated": true,
        "points": 1.25
       }
-     ]
+     ],
+     "strength_vs_previous": null
     },
     {
      "year": 2024,
@@ -23422,7 +23452,8 @@
        "listeners_estimated": false,
        "points": 1.48
       }
-     ]
+     ],
+     "strength_vs_previous": null
     }
    ]
   },
@@ -23773,7 +23804,8 @@
        "listeners_estimated": false,
        "points": 1.86
       }
-     ]
+     ],
+     "strength_vs_previous": null
     },
     {
      "year": 2025,
@@ -24217,7 +24249,8 @@
        "listeners_estimated": false,
        "points": 2.82
       }
-     ]
+     ],
+     "strength_vs_previous": null
     },
     {
      "year": 2024,
@@ -24701,7 +24734,8 @@
        "listeners_estimated": false,
        "points": 1.59
       }
-     ]
+     ],
+     "strength_vs_previous": null
     }
    ]
   }

@@ -46,6 +46,13 @@ def edition_scores(
     }
 
 
+def strength_ratio(top30: float, previous_top30: float | None) -> float | None:
+    """top30 relativ zur Vorjahresausgabe (1.0 = gleich stark); None ohne Referenz."""
+    if not previous_top30:
+        return None
+    return round(top30 / previous_top30, 2)
+
+
 def completeness(act_count: int, reference_count: int | None) -> float | None:
     """Anteil gegenüber der Referenz-Ausgabe (max 1.0); None ohne Referenz."""
     if not reference_count or reference_count <= 0:

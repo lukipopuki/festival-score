@@ -214,12 +214,17 @@ def build_output(
         newest_first = sorted(eds, key=lambda f: f.year, reverse=True)
         past = [f for f in newest_first if f.end_date < today]
         reference = (past[0].reported_act_count or len(past[0].acts)) if past else None
+        ed_dicts = [_edition_dict(f, metrics, ratio, today, reference) for f in newest_first]
+        # Stärke gegenüber Vorjahr: top30 der kommenden Ausgabe relativ zur letzten vergangenen
+        prev_top = next((e["scores"]["top30"] for e in ed_dicts if e["status"] == "past"), None)
+        for e in ed_dicts:
+            e["strength_vs_previous"] = scoring.strength_ratio(e["scores"]["top30"], prev_top) if e["status"] == "upcoming" else None
         festivals.append(
             {
                 "slug": slug,
                 "name": newest_first[0].name,
                 "location": next((f.location for f in newest_first if f.location), None),
-                "editions": [_edition_dict(f, metrics, ratio, today, reference) for f in newest_first],
+                "editions": ed_dicts,
             }
         )
     return {

@@ -161,7 +161,7 @@ def test_build_output_struktur_und_schaetzung():
     assert e["completeness"] == 0.4  # 8 / reported 20
     assert set(e) == {"year", "status", "source", "start_date", "end_date", "days", "price_eur",
                       "capacity", "visitors", "act_count", "reported_act_count", "completeness",
-                      "scores", "acts"}
+                      "strength_vs_previous", "scores", "acts"}
     assert set(e["scores"]) == {"total", "top30", "headliner", "depth", "per_day", "per_euro"}
     acts = {a["name"]: a for a in e["acts"]}
     assert set(acts["Act0"]) == {"name", "position", "headliner", "spotify_id", "monthly_listeners",
@@ -225,3 +225,12 @@ def test_collect_editions_kommende_ausgabe_als_ersatz(monkeypatch):
     eds = pipeline.collect_editions(["deichbrand", "hurricane"], upcoming_provider=upcoming)
     assert gefragt == ["deichbrand"]  # hurricane hat schon eine kommende Ausgabe
     assert [f.year for f in eds["deichbrand"]] == [2025, 2099]
+
+
+def test_strength_vs_previous_nur_fuer_kommende():
+    past = fest(year=2025, names=["X"])
+    cur = fest(year=2027, names=["Y"])
+    m = {"x": pipeline.ActMetrics(monthly_listeners=1_000_000), "y": pipeline.ActMetrics(monthly_listeners=10_000_000)}
+    eds = pipeline.build_output({"hurricane": [past, cur]}, m, today=TODAY)["festivals"][0]["editions"]
+    assert eds[0]["strength_vs_previous"] == 1.5  # 3 Punkte / 2 Punkte
+    assert eds[1]["strength_vs_previous"] is None

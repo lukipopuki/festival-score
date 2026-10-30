@@ -144,7 +144,8 @@ const RANK_COLS = [
   { key: 'days', label: 'Tage', get: (r) => r.e.days },
   { key: 'price', label: 'Preis', get: (r) => r.e.price_eur },
   { key: 'acts', label: 'Acts', get: (r) => r.e.act_count },
-  { key: 'completeness', label: 'Vollständigkeit', get: (r) => r.e.completeness },
+  { key: 'completeness', label: 'Acts ggü. Vorjahr', get: (r) => r.e.completeness },
+  { key: 'strength', label: 'Stärke ggü. Vorjahr', get: (r) => r.e.strength_vs_previous },
   { key: 'top30', label: 'Top 30', get: (r) => sc(r.e, 'top30') },
   { key: 'headliner', label: 'Headliner', get: (r) => sc(r.e, 'headliner') },
   { key: 'depth', label: 'Breite', get: (r) => sc(r.e, 'depth') },
@@ -198,7 +199,7 @@ function renderOverview() {
       'Punkte pro Act: 10.000 Hörer = 0, 100.000 = 1, 1 Mio. = 2, 10 Mio. = 3, 100 Mio. = 4.'),
     el('p', null,
       `Top 30 summiert die Punkte der ${sc0.top_depth || 30} besten Acts, Headliner-Stärke ist der Mittelwert der ${sc0.top_n || 5} besten, Breite der Median der übrigen. `,
-      'Kommende Lineups sind oft noch unvollständig, vergleiche sie mit Vorsicht.'),
+      'Kommende Lineups sind noch unvollständig: „Acts ggü. Vorjahr“ zeigt, wie viele Acts schon feststehen, „Stärke ggü. Vorjahr“, wie stark die Top 30 im Vergleich zur letzten Ausgabe schon sind.'),
     el('p', { class: 'muted small' }, 'Datenstand: ', el('time', { datetime: DATA.generated_at }, genTxt)),
   );
   root.append(rankingSection(), historySection(), pastSection());
@@ -318,6 +319,7 @@ function rankingTable() {
       el('td', { class: 'num' }, fEur(e.price_eur)),
       el('td', { class: 'num' }, fInt(e.act_count)),
       comp,
+      el('td', { class: 'num' }, fPct(e.strength_vs_previous)),
       el('td', { class: 'num' }, f1(sc(e, 'top30'))),
       el('td', { class: 'num' }, f2(sc(e, 'headliner'))),
       el('td', { class: 'num' }, f2(sc(e, 'depth'))),
@@ -490,7 +492,10 @@ function renderDetail(slug, yearStr) {
 
   if (e.status === 'upcoming') {
     root.append(el('p', { class: 'status small', style: 'margin-top:10px' },
-      'Kommende Ausgabe: Das Lineup ist ' + (isNum(e.completeness) ? `etwa zu ${fPct(e.completeness)} bekannt` : 'möglicherweise noch unvollständig') + '.'));
+      'Kommende Ausgabe: ' +
+        (isNum(e.completeness) ? `bisher ${fPct(e.completeness)} so viele Acts wie im Vorjahr` : 'Lineup möglicherweise noch unvollständig') +
+        (isNum(e.strength_vs_previous) ? `, Top 30 schon bei ${fPct(e.strength_vs_previous)} des Vorjahres` : '') +
+        '. Spät angekündigt werden meist kleinere Acts.'));
   }
 
   // Kacheln
@@ -503,7 +508,8 @@ function renderDetail(slug, yearStr) {
   tile('pro Tag', f1(sc(e, 'per_day')));
   tile('pro Euro', f2(sc(e, 'per_euro')));
   tile('Acts', fInt(e.act_count) + (isNum(e.reported_act_count) ? ` (offiziell ${fInt(e.reported_act_count)})` : ''));
-  tile('Vollständigkeit', fPct(e.completeness));
+  tile('Acts ggü. Vorjahr', fPct(e.completeness));
+  tile('Stärke ggü. Vorjahr', fPct(e.strength_vs_previous));
   root.append(tiles);
 
   // Verteilung

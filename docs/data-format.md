@@ -21,6 +21,7 @@ Diese Datei ist der Vertrag zwischen Pipeline und Website. Änderungen nur mit A
           "act_count": 44,                  // Acts mit Daten in dieser Datei
           "reported_act_count": null,       // offizielle Anzahl laut Quelle, falls bekannt
           "completeness": 0.51,             // nur bei "upcoming": act_count / Act-Anzahl der letzten vergangenen Ausgabe; sonst oder wenn unbekannt null; max 1.0
+          "strength_vs_previous": 1.01,     // nur bei "upcoming": scores.top30 / top30 der letzten vergangenen Ausgabe; sonst null
           "scores": {
             "total": 61.3,                  // Summe der Punkte
             "top30": 52.8,                  // Summe der top_depth besten Acts (fairer Vergleich verschieden großer Lineups)
