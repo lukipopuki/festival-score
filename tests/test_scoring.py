@@ -50,3 +50,13 @@ def test_completeness():
     assert scoring.completeness(100, 50) == 1.0
     assert scoring.completeness(10, None) is None
     assert scoring.completeness(10, 0) is None
+
+
+def test_top30_begrenzt_auf_30_beste():
+    from festival_score.scoring import edition_scores
+
+    pts = [2.0] * 40 + [None, 0.5]
+    s = edition_scores(pts, days=3, price_eur=100)
+    assert s["top30"] == 60.0
+    assert s["total"] == 80.5
+    assert edition_scores([], 3, None)["top30"] == 0

@@ -207,7 +207,11 @@ def build_output(
         )
     return {
         "generated_at": now.isoformat(timespec="seconds"),
-        "scoring": {"points_zero_listeners": scoring.POINTS_ZERO_LISTENERS, "top_n": scoring.TOP_N},
+        "scoring": {
+            "points_zero_listeners": scoring.POINTS_ZERO_LISTENERS,
+            "top_n": scoring.TOP_N,
+            "top_depth": scoring.TOP_DEPTH,
+        },
         "festivals": festivals,
     }
 

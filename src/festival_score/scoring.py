@@ -7,6 +7,7 @@ import statistics
 
 POINTS_ZERO_LISTENERS = 10_000
 TOP_N = 5
+TOP_DEPTH = 30  # robuster Vergleichswert, unabhängig von Lineup-Größe und Datenlücken
 MIN_RATIO_PAIRS = 5
 
 
@@ -37,6 +38,7 @@ def edition_scores(
     rest = values[top_n:]
     return {
         "total": round(total, 2),
+        "top30": round(sum(values[:TOP_DEPTH]), 2),
         "headliner": round(sum(top) / len(top), 2) if top else None,
         "depth": round(statistics.median(rest), 2) if rest else None,
         "per_day": round(total / days, 2) if days > 0 else None,

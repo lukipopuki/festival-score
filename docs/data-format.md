@@ -5,7 +5,7 @@ Diese Datei ist der Vertrag zwischen Pipeline und Website. Änderungen nur mit A
 ```jsonc
 {
   "generated_at": "2026-10-30T12:00:00+00:00",
-  "scoring": { "points_zero_listeners": 10000, "top_n": 5 },   // Parameter, damit die Website sie anzeigen kann
+  "scoring": { "points_zero_listeners": 10000, "top_n": 5, "top_depth": 30 },   // Parameter, damit die Website sie anzeigen kann
   "festivals": [
     {
       "slug": "hurricane",
@@ -23,6 +23,7 @@ Diese Datei ist der Vertrag zwischen Pipeline und Website. Änderungen nur mit A
           "completeness": 0.51,             // nur bei "upcoming": act_count / Act-Anzahl der letzten vergangenen Ausgabe; sonst oder wenn unbekannt null; max 1.0
           "scores": {
             "total": 61.3,                  // Summe der Punkte
+            "top30": 52.8,                  // Summe der top_depth besten Acts (fairer Vergleich verschieden großer Lineups)
             "headliner": 3.1,               // Mittelwert der top_n Acts nach Punkten
             "depth": 1.2,                   // Median der übrigen Acts (null bei <= top_n Acts)
             "per_day": 20.4,                // total / days
