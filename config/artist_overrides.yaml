@@ -1,0 +1,13 @@
+# Korrekturen für einzelne Acts. Schlüssel = Act-Name exakt wie im Lineup.
+# Mögliche Werte je Act (alle optional):
+#   spotify_id: "<id>"          # diese Spotify-ID für monatliche Hörer nutzen statt Suche
+#   search_name: "<Name>"       # anderer Suchname für Spotify und Last.fm
+#   skip: true                  # keine Kennzahlen abfragen (z. B. Platzhalter-Acts)
+#
+# Beispiele:
+# "Muse":
+#   spotify_id: "12Chz98pHFMPJEknJQMWvI"
+# "Alle Farben":
+#   search_name: "Alle Farben (DJ)"
+# "Überraschungsact":
+#   skip: true
