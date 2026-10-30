@@ -1,0 +1,11 @@
+# Festivals, die bewertet werden. slug = Pfad auf https://www.festivalplaner.de/festivals/<slug>
+festivals:
+  - rock-am-ring
+  - rock-im-park
+  - hurricane
+  - southside
+  - wacken-open-air
+  - lollapalooza-berlin
+  - parookaville
+  - deichbrand
+  - highfield-festival
